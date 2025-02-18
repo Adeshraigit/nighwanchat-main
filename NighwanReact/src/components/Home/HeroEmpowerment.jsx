@@ -79,7 +79,7 @@ const HeroEmpowerment = () => {
                   </div>
                   <p>
                     250
-                    <span>Reviews</span>
+                    <span> Reviews</span>
                   </p>
                 </div>
               </div>

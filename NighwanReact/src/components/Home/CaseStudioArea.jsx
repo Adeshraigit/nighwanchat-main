@@ -87,11 +87,11 @@ const CaseStudioArea = () => {
               <div className="case-studio-body d-flex">
                 <div className="left d-flex flex-1">
                   <div className="case-studio-img-card simple-shadow">
-                    <a href="/portfolio" className="case-studio-cat">Web Development</a>
+                    <a href="/products" className="case-studio-cat">Web Development</a>
                     <img src={caseStudio1} alt="Case Studio" />
                   </div>
                   <div className="case-studio-img-card simple-shadow">
-                    <a href="/portfolio" className="case-studio-cat">Mobile Development</a>
+                    <a href="/products" className="case-studio-cat">Mobile Development</a>
                     <img src={caseStudio2} alt="Case Studio" />
                   </div>
                 </div>
@@ -102,7 +102,7 @@ const CaseStudioArea = () => {
                     <p>
                     AI-powered recruitment, workforce management, and payroll in one centralized platform.
                     </p>
-                    <a href="#" className="theme-btn">
+                    <a href="/product-detail/hrms" className="theme-btn">
                       <i className="iconoir-arrow-up-right"></i>
                     </a>
                   </div>
@@ -120,11 +120,11 @@ const CaseStudioArea = () => {
               <div className="case-studio-body d-flex">
                 <div className="left d-flex flex-1">
                   <div className="case-studio-img-card simple-shadow">
-                    <a href="/portfolio" className="case-studio-cat">electro.</a>
+                    <a href="/products" className="case-studio-cat">electro.</a>
                     <img src={caseStudio3} alt="Case Studio" />
                   </div>
                   <div className="case-studio-img-card simple-shadow">
-                    <a href="/portfolio" className="case-studio-cat">Visit Site Now</a>
+                    <a href="/products" className="case-studio-cat">Visit Site Now</a>
                     <img src={caseStudio4} alt="Case Studio" />
                   </div>
                 </div>
@@ -135,7 +135,7 @@ const CaseStudioArea = () => {
                     <p>
                     Smart logistics management with real-time tracking and route optimization.
                     </p>
-                    <a href="#" className="theme-btn">
+                    <a href="/product-detail/tms" className="theme-btn">
                       <i className="iconoir-arrow-up-right"></i>
                     </a>
                   </div>
@@ -153,11 +153,11 @@ const CaseStudioArea = () => {
               <div className="case-studio-body d-flex">
                 <div className="left d-flex flex-1">
                   <div className="case-studio-img-card simple-shadow">
-                    <a href="/portfolio" className="case-studio-cat">CRM Solutions</a>
+                    <a href="/products" className="case-studio-cat">CRM Solutions</a>
                     <img src={caseStudio5} alt="Case Studio" />
                   </div>
                   <div className="case-studio-img-card simple-shadow">
-                    <a href="/portfolio" className="case-studio-cat">Mobile Development</a>
+                    <a href="/products" className="case-studio-cat">Mobile Development</a>
                     <img src={caseStudio6} alt="Case Studio" />
                   </div>
                 </div>
@@ -168,7 +168,7 @@ const CaseStudioArea = () => {
                     <p>
                     Vendor-friendly features, sales forecasting, and secure payment gateways for seamless transactions.
                     </p>
-                    <a href="#" className="theme-btn">
+                    <a href="product-detail/b2b" className="theme-btn">
                       <i className="iconoir-arrow-up-right"></i>
                     </a>
                   </div>
@@ -186,11 +186,11 @@ const CaseStudioArea = () => {
               <div className="case-studio-body d-flex">
                 <div className="left d-flex flex-1">
                   <div className="case-studio-img-card simple-shadow">
-                    <a href="/portfolio" className="case-studio-cat">Web Designing</a>
+                    <a href="/products" className="case-studio-cat">Web Designing</a>
                     <img src={caseStudio7} alt="Case Studio" />
                   </div>
                   <div className="case-studio-img-card simple-shadow">
-                    <a href="/portfolio" className="case-studio-cat">Mobile Development</a>
+                    <a href="/products" className="case-studio-cat">Mobile Development</a>
                     <img src={caseStudio8} alt="Case Studio" />
                   </div>
                 </div>
@@ -201,7 +201,7 @@ const CaseStudioArea = () => {
                     <p>
                     Comprehensive analytics dashboards, predictive modeling, and insights for data-driven decisions.
                     </p>
-                    <a href="#" className="theme-btn">
+                    <a href="/product-detail/data" className="theme-btn">
                       <i className="iconoir-arrow-up-right"></i>
                     </a>
                   </div>

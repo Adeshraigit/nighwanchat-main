@@ -6,18 +6,18 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import project1 from '../../assets/imgs/project-1.png';
 import project2 from '../../assets/imgs/project-2.png';
-import project3 from '../../assets/imgs/project-3.png';
+// import project3 from '../../assets/imgs/project-3.png';
 import project4 from '../../assets/imgs/project-4.png';
 import project5 from '../../assets/imgs/project-5-new.png';
-import project6 from '../../assets/imgs/project-6-new.png';
+// import project6 from '../../assets/imgs/project-6-new.png';
 
 const projects = [
-  { img: project1, title: "E-commerce Platform Development" },
-  { img: project2, title: "SaaS Integration" },
-  { img: project3, title: "Mobile Platform Development", className: "black-text" },
-  { img: project4, title: "Virtual Reality Experience" },
-  { img: project5, title: "Custom CRM System" },
-  { img: project6, title: "Wrist App for Productivity", className: "black-text" },
+  { img: project1, title: "ERP System" },
+  { img: project2, title: "AI-Powered Sales Forecasting" },
+  { img: project1, title: "B2B E-Commerce Platform", className: "black-text" },
+  { img: project4, title: "IoT-Enabled Predictive Maintenance" },
+  { img: project5, title: "HRMS with Job Portal" },
+  { img: project4, title: "Transport Management System", className: "black-text" },
 ];
 
 const ProjectArea = () => {
@@ -71,7 +71,7 @@ const ProjectArea = () => {
                     <div className="project-item">
                       <div className="project-item-inner">
                         <h2 className={project.className || ''}>
-                          <a href="portfolio-details.html">
+                          <a href="/products">
                             {project.title}
                           </a>
                         </h2>
