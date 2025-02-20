@@ -10,4 +10,6 @@ Allow: /contact
 Allow: /lean
 Allow: /portfolio
 Allow: /caseStudies
+Allow: /privacy-policy
+Allow: /terms-and-conditions
 Allow: /*

@@ -260,8 +260,12 @@ const Footer = () => {
               </ul>
 
               <p>
-                &copy; 2023 All rights reserved by{' '}
+                &copy; 2025 All rights reserved by{' '}
                 <a href="https://nighwantech.com/">Nighwan</a>
+              </p>
+              <p>
+                <a href="/terms-and-conditions">Terms and Conditions</a> | 
+                <a href="/privacy-policy"> Privacy Policy</a>
               </p>
             </div>
           </div>

@@ -13,6 +13,8 @@ import ServicedetailsPage from './Pages/ServicedetailsPage';
 import ServicePage from './Pages/ServicePage';
 import ContactPage from './Pages/ContactPage';
 import Portfoliodetail from './Pages/portfolio-detail';
+import Terms from './Pages/Terms';
+import Privacy from './Pages/Privacy';
 
 function App() {
 
@@ -33,8 +35,12 @@ function App() {
           element: <CareerPage />
         },
         {
-          path: "/terms",
-          element: <div>Terms and Policies</div>
+          path: "/terms-and-conditions",
+          element: <Terms/>
+        },
+        {
+          path: "/privacy-policy",
+          element: <Privacy/>
         },
         {
           path: "/service-details/:type",

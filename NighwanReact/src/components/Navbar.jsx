@@ -747,27 +747,27 @@ const Navbar = () => {
                                   <h3>Services</h3>
                                   <ul>
                                     <li>
-                                      <Link to="/service" style={{ fontSize: '0.7em' }}>
+                                      <Link to="/lean" style={{ fontSize: '0.7em' }}>
                                         Lean Consultancy 
                                       </Link>
                                     </li>
                                     <li>
-                                      <Link to="/service" style={{ fontSize: '0.7em' }}>
+                                      <Link to="/service-details/Branding" style={{ fontSize: '0.7em' }}>
                                         Branding
                                       </Link>
                                     </li>
                                     <li>
-                                      <Link to="/service" style={{ fontSize: '0.7em' }}>
+                                      <Link to="/service-details/ERP" style={{ fontSize: '0.7em' }}>
                                         ERP Development
                                       </Link>
                                     </li>
                                     <li>
-                                      <Link to="/service" style={{ fontSize: '0.7em' }}>
+                                      <Link to="/service-details/aim" style={{ fontSize: '0.7em' }}>
                                         AI/ML Solutions
                                       </Link>
                                     </li>
                                     <li>
-                                      <Link to="/service" style={{ fontSize: '0.7em' }}>
+                                      <Link to="/service-details/Web" style={{ fontSize: '0.7em' }}>
                                         Web/Mobile App Development
                                       </Link>
                                     </li>
@@ -782,27 +782,27 @@ const Navbar = () => {
                                   <h3>&nbsp;</h3>
                                   <ul>
                                     <li>
-                                      <Link to="/service" style={{ fontSize: '0.7em' }}>
+                                      <Link to="/service-details/Iot" style={{ fontSize: '0.7em' }}>
                                         IoT Solutions
                                       </Link>
                                     </li>
                                     <li>
-                                      <Link to="/service" style={{ fontSize: '0.7em' }}>
+                                      <Link to="/service-details/Digital" style={{ fontSize: '0.7em' }}>
                                         Digital Marketing
                                       </Link>
                                     </li>
                                     <li>
-                                      <Link to="/service" style={{ fontSize: '0.7em' }}>
+                                      <Link to="/service-details/Data" style={{ fontSize: '0.7em' }}>
                                       Data Analytics
                                       </Link>
                                     </li>
                                     <li>
-                                      <Link to="/service" style={{ fontSize: '0.7em' }}>
+                                      <Link to="/service-details/Devops" style={{ fontSize: '0.7em' }}>
                                         DevOps Services
                                       </Link>
                                     </li>
                                     <li>
-                                      <Link to="/service" style={{ fontSize: '0.7em' }}>
+                                      <Link to="/service-details/IT" style={{ fontSize: '0.7em' }}>
                                       IT Support & Maintenance
                                       </Link>
                                     </li>
