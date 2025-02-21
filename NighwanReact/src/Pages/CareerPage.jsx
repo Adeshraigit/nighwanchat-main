@@ -18,7 +18,7 @@ const CareerPage = () => {
         </Helmet>
         <HeroCareer/>
         <CompanyServiceArea/>
-        <ServiceArea/>
+        {/* <ServiceArea/> */}
         <CareerArea/>
         <AboutServiceArea/>
         <CtaArea/>

@@ -14,7 +14,7 @@ const AboutArea = () => {
             </p>
             <ul>
               <li>
-                <i className="icon-check las la-check"></i> AI-Powered Automation: Streamline your operations with intelligent automation.
+                <i className="icon-check las la-check"></i> AI-Powered Automation:Streamline your operations with intelligent automation.
               </li>
               <li>
                 <i className="icon-check las la-check"></i> Data-Driven Insights: Make smarter decisions with predictive analytics.

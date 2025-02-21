@@ -51,7 +51,7 @@ const Service4Area = () => {
               )}
               <img src={service.icon} alt="Service Icon" className="service-icon" />
               <h3>
-                <a href="service-details.html">{service.title}</a>
+                <a href={`/service-details/${service.link}`}>{service.title}</a>
               </h3>
               <p>{service.description}</p>
             </div>

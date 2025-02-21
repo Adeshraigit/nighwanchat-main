@@ -18,8 +18,8 @@ const AboutPage = () => {
         </Helmet>
         <HeroSection />
         <CompanyServiceArea />
-        <Service4Area />
-        <OurTeam/>
+        {/* <Service4Area /> */}
+        {/* <OurTeam/> */}
         <AboutServiceArea/>
         <CtaArea/>
         <ContactArea/>

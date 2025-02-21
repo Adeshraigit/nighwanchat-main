@@ -23,7 +23,7 @@ const HeroEmpowerment = () => {
             <p>We integrate Artificial Intelligence, Machine Learning, and Lean Manufacturing expertise to optimize operations, reduce costs, and drive growth for businesses across industries.</p>
             <div className="btns-group d-flex">
               <a href="/service" className="theme-btn">Explore More</a>
-              <a href="/contact" className="theme-btn2">
+              <a href="/lean" className="theme-btn2">
                 Get in Touch <i className="iconoir-arrow-up-right"></i>
               </a>
             </div>

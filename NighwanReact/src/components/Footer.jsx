@@ -25,22 +25,21 @@ const Footer = () => {
                 <p>
                   We provide the expertise and support to <br />propel your business forward.
                 </p>
-                <form
+                {/* <form
                   className="subscribe-form"
                 >
                   <div className="subscribe-box d-flex">
                     <input type="email" id="email" name="email" placeholder="Enter Your Email" />
                     <button id="submit2" className="theme-btn">Get Started</button>
                   </div>
-                  {/* Alert Message */}
                   <div className="input-row">
                     <div className="input-group alert-notification">
                       <div id="alert-message-subscribe" className="alert-msg"></div>
                     </div>
                   </div>
-                </form>
+                </form> */}
                 {/* Client Logos */}
-                <div className="footer-clients d-flex align-items-center">
+                {/* <div className="footer-clients d-flex align-items-center">
                   <div className="footer-client-img">
                     <img src={youtubeIcon} alt="Youtube" />
                   </div>
@@ -53,7 +52,7 @@ const Footer = () => {
                   <div className="footer-client-img">
                     <img src={shopifyIcon} alt="Shopify" />
                   </div>
-                </div>
+                </div> */}
               </div>
 
               <div className="right-content">
@@ -261,7 +260,7 @@ const Footer = () => {
 
               <p>
                 &copy; 2025 All rights reserved by{' '}
-                <a href="https://nighwantech.com/">Nighwan</a>
+                <a href="https://nighwantech.com/">Nighwan Tech</a>
               </p>
               <p>
                 <a href="/terms-and-conditions">Terms and Conditions</a> | 

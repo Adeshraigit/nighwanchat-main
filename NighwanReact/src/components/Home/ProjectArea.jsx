@@ -26,7 +26,7 @@ const ProjectArea = () => {
       <div className="custom-container">
         <div className="custom-row justify-content-between">
           <div className="project-left-details">
-            <h5 className="section-subtitle">PROJECTS</h5>
+            <h5 className="section-subtitle">PRODUCTS</h5>
             <h1 className="section-title">
               Showcase of
               <br />
