@@ -1,4 +1,4 @@
-import serviceAbout from "../../assets/imgs/hero-service-about.jpg"; 
+import serviceAbout from "../../assets/imgs/Service4.png"; 
 
 const HeroService = () => {
     return (
@@ -8,11 +8,11 @@ const HeroService = () => {
             <div className="hero-section-content text-center">
               <h5 className="section-subtitle">Our Services</h5>
               <h1 className="section-title fade-in">
-                Empowering you with premier <br />
-                solutions and support
+              Empowering Businesses with <br />
+              Smart & Scalable Solutions
               </h1>
               <p>
-                At Premier Services, we are committed to providing exceptional solutions and <br />
+                At Nighwan Technology, we are committed to providing exceptional solutions and <br />
                 unwavering support to meet your every need.
               </p>
             </div>
@@ -21,17 +21,17 @@ const HeroService = () => {
               <img src={serviceAbout} alt="Service About" />
               <div className="hero-service-about-body">
                 <p>
-                  Our team is a collective force of top talents, pros, experts, and visionaries from diverse fields. With a passion for excellence, our professionals bring a wealth of experience and knowledge to every project. At Slack, we are committed to delivering nothing short of excellence. From concept to implementation, we maintain the highest standards of quality and craftsmanship, leaving no room for compromise.
+                At Nighwan Technology, we provide innovative, AI-driven solutions that enhance efficiency, reduce costs, and drive sustainable growth. Our Lean Consultancy services help businesses eliminate waste and optimize operations, while our custom ERP development, AI/ML solutions, and IoT integrations enable seamless automation and intelligent decision-making. We specialize in branding, web & mobile app development, data analytics, digital marketing, and IT support, ensuring a comprehensive digital transformation. With DevOps services for faster deployment, we help businesses stay agile, competitive, and future-ready.
                 </p>
                 <ul>
                   <li>
-                    <i className="las la-check"></i> Managed Services and Products
+                    <i className="las la-check"></i> End-to-End Digital Solutions
                   </li>
                   <li>
-                    <i className="las la-check"></i> Flexibility and Adaptability
+                    <i className="las la-check"></i> Scalable & Agile Approach
                   </li>
                   <li>
-                    <i className="las la-check"></i> Competitive Advantage
+                    <i className="las la-check"></i> Technology-Driven Excellence
                   </li>
                 </ul>
               </div>

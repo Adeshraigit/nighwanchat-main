@@ -1,9 +1,9 @@
 import React from 'react'
 import HeroService from '../components/Service/Hero';
 import Service4Area from '../components/About/Service4Area';
-import CaseStudies from '../components/Service/CaseStudio';
+import CaseStudies from '../components/Home/CaseStudioArea';
 import AboutArea from '../components/Service/About';
-import AboutService from '../components/Service/AboutService';
+import AboutServiceArea from "../components/About/AboutServiceArea";
 import ContactArea from '../components/Home/ContactArea';   
 
 function ServicePage() {
@@ -13,7 +13,7 @@ function ServicePage() {
     <Service4Area/>
     <CaseStudies/>
     <AboutArea/>
-    <AboutService/>
+    <AboutServiceArea/>
     <ContactArea/>
     </>
   )

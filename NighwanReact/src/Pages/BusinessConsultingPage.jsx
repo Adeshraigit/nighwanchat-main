@@ -4,8 +4,7 @@ import ClientArea from '../components/BusinessConsulting/ClientArea'
 import ServiceArea from '../components/BusinessConsulting/ServiceArea'
 import AboutArea from '../components/BusinessConsulting/AboutArea'
 import FeatureArea from '../components/BusinessConsulting/FeatureArea'
-import PortfolioArea from '../components/BusinessConsulting/PortfolioArea'
-import TestimonialArea from '../components/BusinessConsulting/TestimonialArea'
+import TestimonialArea from '../components/Home/TestimonialArea'
 import ContactArea from '../components/BusinessConsulting/ContactArea'
 import { Helmet } from "react-helmet";
 
@@ -24,9 +23,10 @@ const BusinessConsulting = () => {
     <FeatureArea/>
     {/* Hide */}
     {/* <NewsArea/> */}
-    <PortfolioArea/>
+    {/* <PortfolioArea/> */}
     {/* Hide */}
     {/* <OurTeamArea/> */}
+    {/* <TestimonialArea/> */}
     <TestimonialArea/>
     <ContactArea/>
     </>
