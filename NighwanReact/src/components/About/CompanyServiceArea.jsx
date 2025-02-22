@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../assets/css/style.css'; // Import your custom CSS
 import '../../assets/css/responsive.css'; // Import your responsive CSS
-import heroCompanyAbout from '../../assets/imgs/hero-company-about.jpg'; // Import the image
+import about from "../../assets/imgs/NighwanTech Startup.png"
 
 const CompanyServiceArea = () => {
   return (
@@ -10,34 +10,32 @@ const CompanyServiceArea = () => {
         <div className="hero-service-about">
           <div className="section-header d-flex align-items-center justify-content-between w-full">
             <div className="left">
-              <h5 className="section-subtitle">OUR COMPANY</h5>
-              <h1 className="section-title">Why our company is too popular?</h1>
-              <p>Contact us today to begin your journey!</p>
+              <h5 className="section-subtitle">OUR STORY</h5>
+              <h2 className="section-title">What makes our company stand out?
+              </h2>
+              <p>Get in touch today and start your transformation!</p>
             </div>
-            <a href="contact.html" className="theme-btn">
+            <a href="/contact" className="theme-btn">
               Contact Us
             </a>
           </div>
 
           {/* Updated image path */}
-          <img src={heroCompanyAbout} alt="Service About" />
+          <img src={about} alt="Service About" />
           <div className="hero-service-about-body">
             <p>
-              Our team is a collective force of top talents, pros, experts, and visionaries from
-              diverse fields. With a passion for excellence, our professionals bring a wealth of
-              experience and knowledge to every project. At Slack, we are committed to delivering
-              nothing short of excellence. From concept to implementation, we maintain the highest
-              standards of quality and craftsmanship, leaving no room for compromise.
-            </p>
+            We provide next-generation technology solutions powered by AI/ML, Lean Technology, and IT innovation, enabling businesses to achieve intelligent automation, operational efficiency, and seamless digital transformation.
+            <br/> <br/>
+            Recognized by DPIIT, Government of India, we have been awarded a ₹10 lakh seed fund by the Bihar Industrial Department for the development of our Lean Technology-based ERP system. Our commitment goes beyond just delivering solutions—we ensure continuous support, optimization, and growth to empower your business for the future.</p>
             <ul>
               <li>
-                <i className="las la-check"></i> Managed Services and Products
+                <i className="las la-check"></i> AI-Driven Automation
               </li>
               <li>
-                <i className="las la-check"></i> Flexibility and Adaptability
+                <i className="las la-check"></i> Lean-Optimized ERP
               </li>
               <li>
-                <i className="las la-check"></i> Competitive Advantage
+                <i className="las la-check"></i> Seamless Digital Integration
               </li>
             </ul>
           </div>

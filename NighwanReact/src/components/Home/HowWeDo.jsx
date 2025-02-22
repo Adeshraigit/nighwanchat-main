@@ -18,7 +18,7 @@ const HowWeDo = () => {
           <div className="how-we-do-left-content">
             <div className="top">
               <h5 className="section-subtitle">Our Model</h5>
-              <h1 className="section-title">How we do It</h1>
+              <h1 className="section-title">How do we work?</h1>
               <p>Transforming Ideas into Impactful Solutions.</p>
             </div>
             <a href="/about" className="theme-btn">

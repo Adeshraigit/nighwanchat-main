@@ -1,21 +1,18 @@
 import React from 'react';
-import project1 from '../../assets/imgs/project-1.png'; // Adjust the path to your assets
-import project2 from '../../assets/imgs/project-2.png';
-import project3 from '../../assets/imgs/project-3.jpg';
-import project4 from '../../assets/imgs/project-4.png';
-import project5 from '../../assets/imgs/project-5.png';
-import project6 from '../../assets/imgs/project-6.png';
-import project7 from '../../assets/imgs/project-7.png';
-import project8 from '../../assets/imgs/project-8.png';
-import project9 from '../../assets/imgs/project-9.png';
-import project10 from '../../assets/imgs/project-10.png';
-import project11 from '../../assets/imgs/project-11.png';
-import project12 from '../../assets/imgs/project-12.png';
 import bgShape2 from '../../assets/imgs/bg-shape-2.svg';
 import bgShape22 from '../../assets/imgs/bg-shape-2-2.svg';
 import '../../assets/css/style.css'; // Import your custom CSS
 import '../../assets/css/responsive.css'; // Import your responsive CSS
 import { Link } from 'react-router-dom';
+import AI from "../../assets/imgs/AI-Powered Sales Forecasting.png"
+import ERP from "../../assets/imgs/ERP System.png"  
+import B2B from "../../assets/imgs/B2B E-Commerce Platform.png"
+import IOT from "../../assets/imgs/IoT-Enabled Predictive Maintenance.png"
+import HRMS from "../../assets/imgs/HRMS with Job Portal.png" 
+import TMS from "../../assets/imgs/Transport Management System.png"
+import Data  from "../../assets/imgs/Data Analytics & Digital Twin Technology.png"
+import Devops from "../../assets/imgs/DevOps & Cloud Solutions.png"  
+import Digital from "../../assets/imgs/Digital Marketing Automation.png"
 
 const PortfolioArea = () => {
   return (
@@ -30,7 +27,7 @@ const PortfolioArea = () => {
                     ERP System
                 </Link>
                 </h2>
-                <img src={project1} alt="Project" />
+                <img src={ERP} alt="Project" />
               </div>
             </div>
             
@@ -56,7 +53,7 @@ const PortfolioArea = () => {
                   Forecasting
                   </Link>
                 </h2>
-                <img src={project2} alt="Project" />
+                <img src={AI} alt="Project" />
               </div>
             </div>
             <div className="portfolio-sample-details">
@@ -79,7 +76,7 @@ const PortfolioArea = () => {
                   Platform 
                   </Link>
                 </h2>
-                <img src={project3} alt="Project" />
+                <img src={B2B} alt="Project" />
               </div>
             </div>
             <div className="portfolio-sample-details">
@@ -102,7 +99,7 @@ const PortfolioArea = () => {
                   Maintenance
                   </Link>
                 </h2>
-                <img src={project4} alt="Project" />
+                <img src={IOT} alt="Project" />
               </div>
             </div>
             <div className="portfolio-sample-details">
@@ -126,7 +123,7 @@ const PortfolioArea = () => {
                   Job Portal<br />
                   </Link>
                 </h2>
-                <img src={project5} alt="Project" />
+                <img src={HRMS} alt="Project" />
               </div>
             </div>
             <div className="portfolio-sample-details">
@@ -150,7 +147,7 @@ const PortfolioArea = () => {
                   System
                   </Link>
                 </h2>
-                <img src={project6} alt="Project" />
+                <img src={TMS} alt="Project" />
               </div>
             </div>
             <div className="portfolio-sample-details">
@@ -173,7 +170,7 @@ const PortfolioArea = () => {
                   Technology
                   </Link>
                 </h2>
-                <img src={project7} alt="Project" />
+                <img src={Data} alt="Project" />
               </div>
             </div>
             <div className="portfolio-sample-details">
@@ -196,7 +193,7 @@ const PortfolioArea = () => {
                   Solutions<br />
                   </Link>
                 </h2>
-                <img src={project8} alt="Project" />
+                <img src={Devops} alt="Project" />
               </div>
             </div>
             <div className="portfolio-sample-details">
@@ -220,7 +217,7 @@ const PortfolioArea = () => {
                   Automation<br />
                 </Link>
                 </h2>
-                <img src={project9} alt="Project" />
+                <img src={Digital} alt="Project" />
               </div>
             </div>
             <div className="portfolio-sample-details">

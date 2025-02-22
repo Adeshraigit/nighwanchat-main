@@ -5,7 +5,7 @@ import '../../assets/css/responsive.css'; // Import your responsive CSS
 const HeroPortfolio = () => {
   return (
     <section className="hero-service-wrap hero-section-wrap hero-portfolio-wrap">
-      <div className="hero-section-content-wrap">
+      <div style={{ paddingTop: '100px'}} className="hero-section-content-wrap">
         <div className="custom-container">
           <div className="hero-portfolio-body">
             <div className="hero-section-content text-center">

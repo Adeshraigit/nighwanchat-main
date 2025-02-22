@@ -195,22 +195,18 @@ const HeroSection = () => {
   return (
     <ErrorBoundary>
     <section className="hero-section-wrap hero-home2">
-      <div className="hero-section-content-wrap">
+      <div style={{ paddingTop: '100px' }} className="hero-section-content-wrap">
         <img className="bg-shape slide-left" src={bgShape6} alt="Shape" />
         <img className="bg-shape2 slide-right" src={bgShape5} alt="Shape" />
         <div className="custom-container">
           <div className="hero-section-content text-center">
-            <h5 className="section-subtitle">ACCELERATED GROWTH</h5>
+            <h5 className="section-subtitle">LEAN CONSULTANCY</h5>
             <h1 className="section-title fade-in">
-              Empowering business with modern rules and insights
+            Accelerated Growth with Lean Expertise
             </h1>
             <p>
-              Welcome to Nighwan business consulting and solutions, where success is not just a
-              destination.
+            Empowering businesses with modern strategies and data-driven insights, we help organizations achieve efficiency, agility, and sustainable success.
             </p>
-            <a href="#" className="theme-btn2">
-              Let’s talk to our team <i className="iconoir-arrow-up-right"></i>
-            </a>
           </div>
         </div>
       </div>

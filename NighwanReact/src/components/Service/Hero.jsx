@@ -3,7 +3,7 @@ import serviceAbout from "../../assets/imgs/hero-service-about.jpg";
 const HeroService = () => {
     return (
       <section className="hero-service-wrap hero-section-wrap">
-        <div className="hero-section-content-wrap">
+        <div style={{ paddingTop: '100px'}} className="hero-section-content-wrap">
           <div className="custom-container">
             <div className="hero-section-content text-center">
               <h5 className="section-subtitle">Our Services</h5>

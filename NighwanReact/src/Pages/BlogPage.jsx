@@ -22,7 +22,7 @@ const BlogPage = () => {
         </Helmet>
       {/* Hero Blog Section */}
       <section className="hero-servic e-wrap hero-section-wrap hero-blog-wrap">
-        <div className="hero-section-content-wrap">
+        <div style={{ paddingTop: '100px'}} className="hero-section-content-wrap">
           <div className="custom-container">
             <div className="hero-portfolio-body">
               <div className="hero-section-content text-center">

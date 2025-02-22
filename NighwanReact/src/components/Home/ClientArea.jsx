@@ -1,11 +1,18 @@
 import React, { useEffect } from 'react';
 import { gsap } from 'gsap';
 import { Draggable } from 'gsap/Draggable'; // Keep Draggable if needed
-import clientLogo1 from '../../assets/imgs/client-logo1.svg'; // Adjust the path to your logos
-import clientLogo2 from '../../assets/imgs/client-logo2.svg';
-import clientLogo3 from '../../assets/imgs/client-logo3.svg';
-import clientLogo4 from '../../assets/imgs/client-logo4.svg';
-import clientLogo5 from '../../assets/imgs/client-logo5.svg';
+import client1 from '../../assets/imgs/1.png';   
+import client2 from '../../assets/imgs/2.png';   
+import client3 from '../../assets/imgs/3.png';   
+import client4 from '../../assets/imgs/4.png';   
+import client5 from '../../assets/imgs/5.png';   
+import client6 from '../../assets/imgs/6.png';   
+import client7 from '../../assets/imgs/7.png';
+import client8 from '../../assets/imgs/8.png';
+import client9 from '../../assets/imgs/9.png';
+import client10 from '../../assets/imgs/10.png';
+import client11 from '../../assets/imgs/11.png';  
+import client12 from '../../assets/imgs/12.png';  
 import '../../assets/css/swiper-bundle.min.css';
 import '../../assets/css/bootstrap.min.css';
 import '../../assets/css/style.css'; // Import your custom CSS
@@ -188,34 +195,40 @@ const ClientArea = () => {
     <section className="client-area">
       <div className="clients clients-marquee d-flex align-items-center">
         <div className="client-logo simple-shadow">
-          <img src={clientLogo1} alt="Client" />
+          <img src={client1} alt="Client" />
         </div>
         <div className="client-logo simple-shadow">
-          <img src={clientLogo2} alt="Client" />
+          <img src={client2} alt="Client" />
         </div>
         <div className="client-logo simple-shadow">
-          <img src={clientLogo3} alt="Client" />
+          <img src={client3} alt="Client" />
         </div>
         <div className="client-logo simple-shadow">
-          <img src={clientLogo4} alt="Client" />
+          <img src={client4} alt="Client" />
         </div>
         <div className="client-logo simple-shadow">
-          <img src={clientLogo5} alt="Client" />
+          <img src={client5} alt="Client" />
         </div>
         <div className="client-logo simple-shadow">
-          <img src={clientLogo2} alt="Client" />
+          <img src={client6} alt="Client" />
         </div>
         <div className="client-logo simple-shadow">
-          <img src={clientLogo3} alt="Client" />
+          <img src={client7} alt="Client" />
         </div>
         <div className="client-logo simple-shadow">
-          <img src={clientLogo4} alt="Client" />
+          <img src={client8} alt="Client" />
         </div>
         <div className="client-logo simple-shadow">
-          <img src={clientLogo5} alt="Client" />
+          <img src={client9} alt="Client" />
         </div>
         <div className="client-logo simple-shadow">
-          <img src={clientLogo2} alt="Client" />
+          <img src={client10} alt="Client" />
+        </div>
+        <div className="client-logo simple-shadow">
+          <img src={client11} alt="Client" />
+        </div>
+        <div className="client-logo simple-shadow">
+          <img src={client12} alt="Client" />
         </div>
         <div className="client-logo" style={{ minWidth: '0' }}></div>
       </div>

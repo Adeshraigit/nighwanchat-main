@@ -7,6 +7,7 @@ import AboutServiceArea from "../components/About/AboutServiceArea";
 import CtaArea from "../components/About/CtaArea";
 import ContactArea from "../components/Home/ContactArea";
 import { Helmet } from "react-helmet";  
+import TestimonialArea from "../components/Home/TestimonialArea";
 
 const AboutPage = () => {
     return (
@@ -21,9 +22,9 @@ const AboutPage = () => {
         {/* <Service4Area /> */}
         {/* <OurTeam/> */}
         <AboutServiceArea/>
-        <CtaArea/>
+        {/* <CtaArea/> */}
+        <TestimonialArea/>
         <ContactArea/>
-
         </>
     );
 };

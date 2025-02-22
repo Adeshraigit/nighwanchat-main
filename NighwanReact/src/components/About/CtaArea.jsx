@@ -29,7 +29,7 @@ const CtaArea = () => {
           </div>
           <h2>Need any further assistance?</h2>
           <p>Feel free to reach out for any inquiries or assistance.</p>
-          <a href="contact.html" className="theme-btn">
+          <a href="/contact" className="theme-btn">
             Book an appointment now
           </a>
         </div>

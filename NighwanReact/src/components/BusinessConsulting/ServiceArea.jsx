@@ -1,11 +1,11 @@
 import React from 'react';
 import bgShape7 from '../../assets/imgs/bg-shape-7.svg'; // Adjust the path to your assets
-import service1 from '../../assets/imgs/service-1.png';
-import service2 from '../../assets/imgs/service-2.png';
-import service3 from '../../assets/imgs/service-3.png';
-import service4 from '../../assets/imgs/service-4.png';
-import service5 from '../../assets/imgs/service-5.png';
-import service6 from '../../assets/imgs/service-6.png';
+import service1 from '../../assets/imgs/⁠Process Optimization.png';  
+import service2 from '../../assets/imgs/Waste Reduction.png';
+import service3 from '../../assets/imgs/Value Streamlining.png';
+import service4 from '../../assets/imgs/Kaizen Implementation.png';
+import service5 from '../../assets/imgs/Lean Automation.png';
+import service6 from '../../assets/imgs/Performance Analytics.png';
 import '../../assets/css/style.css'; // Import your custom CSS
 import '../../assets/css/responsive.css'; // Import your responsive CSS
 
@@ -17,15 +17,14 @@ const ServiceArea = () => {
         <div className="custom-row">
           <div className="service2-header d-flex align-items-center justify-content-between w-full">
             <div className="left">
-              <h5 className="section-subtitle">OUR SERVICES</h5>
-              <h1 className="section-title">We provide best services</h1>
+              <h5 className="section-subtitle">Our Lean Consultancy Services</h5>
+              {/* <h1 className="section-title"></h1> */}
               <p>
-                Our consulting process begins with a thorough assessment of your current
-                infrastructure, workflows, and pain points.
+              We deliver best-in-class lean solutions to optimize efficiency. Our consulting process starts with a comprehensive assessment of your existing operations, workflows, and inefficiencies, identifying key areas for improvement and waste reduction to drive sustainable growth.
               </p>
             </div>
 
-            <a href="service.html" className="theme-btn">
+            <a href="/service" className="theme-btn">
               Learn More <i className="iconoir-arrow-up-right"></i>
             </a>
           </div>
@@ -34,47 +33,35 @@ const ServiceArea = () => {
         <div className="service2-items d-flex w-full">
           <div className="service2-card card-h">
             <img src={service1} alt="Service" />
-            <h2>Market Researching</h2>
+            <h2>Process Optimization</h2>
             <p>
-              Stay ahead of the curve <br />
-              in-depth market analysis.
+             Streamlining workflows for <br/> maximum efficiency and productivity.
             </p>
-            <a href="#" className="theme-btn">
-              <i className="iconoir-arrow-up-right"></i>
-            </a>
+             
           </div>
           <div className="service2-card card-h">
             <img src={service2} alt="Service" />
-            <h2>Photography</h2>
+            <h2>Waste Reduction</h2>
             <p>
-              We have a best team for <br />
-              your shopping websites.
+            Eliminating unnecessary processes <br/> to enhance resource utilization.
             </p>
-            <a href="#" className="theme-btn">
-              <i className="iconoir-arrow-up-right"></i>
-            </a>
+             
           </div>
           <div className="service2-card card-h">
             <img src={service3} alt="Service" />
-            <h2>Change Management</h2>
+            <h2>Value Streamlining</h2>
             <p>
-              Navigating organizational <br />
-              change can be complex.
+            Enhancing value delivery with <br/> minimal operational bottlenecks.
             </p>
-            <a href="#" className="theme-btn">
-              <i className="iconoir-arrow-up-right"></i>
-            </a>
+             
           </div>
           <div className="service2-card card-h">
             <img src={service4} alt="Service" />
-            <h2>Branding</h2>
+            <h2>Kaizen Implementation</h2>
             <p>
-              We create vibrant, intuitive <br />
-              and minimalist branding
+            Driving continuous improvement <br/> through small, impactful changes.
             </p>
-            <a href="#" className="theme-btn">
-              <i className="iconoir-arrow-up-right"></i>
-            </a>
+             
           </div>
         </div>
 
@@ -83,10 +70,9 @@ const ServiceArea = () => {
             <img src={service5} alt="Service" />
             <div className="service3-body">
               <div className="service3-content">
-                <h3>Business Development</h3>
+                <h3>Lean Automation</h3>
                 <p>
-                  Success require a proactive strategic <br />
-                  approach to business development.
+                Integrating smart systems for optimized process efficiency.
                 </p>
                 <ul>
                   <li>
@@ -96,9 +82,6 @@ const ServiceArea = () => {
                     <i className="las la-check"></i> Market Penetration
                   </li>
                 </ul>
-                <a href="#" className="theme-btn">
-                  <i className="iconoir-arrow-up-right"></i>
-                </a>
               </div>
             </div>
           </div>
@@ -106,10 +89,9 @@ const ServiceArea = () => {
             <img src={service6} alt="Service" />
             <div className="service3-body">
               <div className="service3-content">
-                <h3>Business Consulting</h3>
+                <h3>Performance Analytics</h3>
                 <p>
-                  We are your partners <br />
-                  in today's markets
+                Data-driven insights to boost operational decision-making.
                 </p>
                 <ul>
                   <li>
@@ -119,9 +101,6 @@ const ServiceArea = () => {
                     <i className="las la-check"></i> Optimize Resources
                   </li>
                 </ul>
-                <a href="#" className="theme-btn">
-                  <i className="iconoir-arrow-up-right"></i>
-                </a>
               </div>
             </div>
           </div>

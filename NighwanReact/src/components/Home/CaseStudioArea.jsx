@@ -1,12 +1,4 @@
 import React, { useState } from 'react';
-import caseStudio1 from '../../assets/imgs/case-studio-1-1.jpg'; // Adjust the path to your images
-import caseStudio2 from '../../assets/imgs/case-studio-2-2.jpg';
-import caseStudio3 from '../../assets/imgs/case-studio-3.jpg';
-import caseStudio4 from '../../assets/imgs/case-studio-4.jpg';
-import caseStudio5 from '../../assets/imgs/case-studio-5.jpg';
-import caseStudio6 from '../../assets/imgs/case-studio-6.jpg';
-import caseStudio7 from '../../assets/imgs/case-studio-7.jpg';
-import caseStudio8 from '../../assets/imgs/case-studio-8.jpg';
 import caseStudio9 from '../../assets/imgs/case-studio-9.jpg';
 import caseStudio10 from '../../assets/imgs/case-studio-10.jpg';
 import serviceIcon1 from '../../assets/imgs/service-icon-1.svg'; // Adjust the path to your icons
@@ -14,6 +6,14 @@ import serviceIcon2 from '../../assets/imgs/service-icon-2.svg';
 import serviceIcon3 from '../../assets/imgs/service-icon-3.svg';
 import serviceIcon4 from '../../assets/imgs/service-icon-4.svg';
 import serviceIcon5 from '../../assets/imgs/service-icon-5.svg';
+import dataBig from '../../assets/imgs/dataBig.png';
+import hrmsBig from '../../assets/imgs/hrmsBig.png';
+import tmsBig from '../../assets/imgs/tmsBig.png';
+import ecommerceBig from '../../assets/imgs/ecommerceBig.png';
+import data from '../../assets/imgs/data.png';
+import hrms from '../../assets/imgs/hrms.png';
+import tms from '../../assets/imgs/tms.png';
+import ecommerce from '../../assets/imgs/ecom.png';
 import '../../assets/css/style.css'; // Import your custom CSS
 import '../../assets/css/responsive.css'; // Import your responsive CSS
 
@@ -87,12 +87,12 @@ const CaseStudioArea = () => {
               <div className="case-studio-body d-flex">
                 <div className="left d-flex flex-1">
                   <div className="case-studio-img-card simple-shadow">
-                    <a href="/products" className="case-studio-cat">Web Development</a>
-                    <img src={caseStudio1} alt="Case Studio" />
+                    <a className="case-studio-cat">Web Design</a>
+                    <img src={hrmsBig} alt="hrms" />
                   </div>
                   <div className="case-studio-img-card simple-shadow">
-                    <a href="/products" className="case-studio-cat">Mobile Development</a>
-                    <img src={caseStudio2} alt="Case Studio" />
+                    <a className="case-studio-cat">Mobile Design</a>
+                    <img src={hrms} alt="hrms" />
                   </div>
                 </div>
                 <div className="right">
@@ -120,12 +120,12 @@ const CaseStudioArea = () => {
               <div className="case-studio-body d-flex">
                 <div className="left d-flex flex-1">
                   <div className="case-studio-img-card simple-shadow">
-                    <a href="/products" className="case-studio-cat">electro.</a>
-                    <img src={caseStudio3} alt="Case Studio" />
+                    <a className="case-studio-cat">Web Design</a>
+                    <img src={tmsBig} alt="tms" />
                   </div>
                   <div className="case-studio-img-card simple-shadow">
-                    <a href="/products" className="case-studio-cat">Visit Site Now</a>
-                    <img src={caseStudio4} alt="Case Studio" />
+                    <a  className="case-studio-cat">Mobile View</a>
+                    <img src={tms} alt="tms" />
                   </div>
                 </div>
                 <div className="right">
@@ -153,12 +153,12 @@ const CaseStudioArea = () => {
               <div className="case-studio-body d-flex">
                 <div className="left d-flex flex-1">
                   <div className="case-studio-img-card simple-shadow">
-                    <a href="/products" className="case-studio-cat">CRM Solutions</a>
-                    <img src={caseStudio5} alt="Case Studio" />
+                    <a  className="case-studio-cat">Web Design</a>
+                    <img src={ecommerceBig} alt="ecommerce" />
                   </div>
                   <div className="case-studio-img-card simple-shadow">
-                    <a href="/products" className="case-studio-cat">Mobile Development</a>
-                    <img src={caseStudio6} alt="Case Studio" />
+                    <a className="case-studio-cat">Mobile Design</a>
+                    <img src={ecommerce} alt="ecommerce" />
                   </div>
                 </div>
                 <div className="right">
@@ -186,12 +186,12 @@ const CaseStudioArea = () => {
               <div className="case-studio-body d-flex">
                 <div className="left d-flex flex-1">
                   <div className="case-studio-img-card simple-shadow">
-                    <a href="/products" className="case-studio-cat">Web Designing</a>
-                    <img src={caseStudio7} alt="Case Studio" />
+                    <a className="case-studio-cat">Web Design</a>
+                    <img src={dataBig} alt="data" />
                   </div>
                   <div className="case-studio-img-card simple-shadow">
-                    <a href="/products" className="case-studio-cat">Mobile Development</a>
-                    <img src={caseStudio8} alt="Case Studio" />
+                    <a className="case-studio-cat">Mobile Design</a>
+                    <img src={data} alt="data" />
                   </div>
                 </div>
                 <div className="right">
@@ -202,39 +202,6 @@ const CaseStudioArea = () => {
                     Comprehensive analytics dashboards, predictive modeling, and insights for data-driven decisions.
                     </p>
                     <a href="/product-detail/data" className="theme-btn">
-                      <i className="iconoir-arrow-up-right"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            {/* IT Support Tab */}
-            <div
-              className={`tab-pane fade ${activeTab === 'it_support' ? 'show active' : ''}`}
-              id="it_support"
-              role="tabpanel"
-              aria-labelledby="it_support-tab"
-            >
-              <div className="case-studio-body d-flex">
-                <div className="left d-flex flex-1">
-                  <div className="case-studio-img-card simple-shadow">
-                    <a href="/portfolio" className="case-studio-cat">IT Support</a>
-                    <img src={caseStudio9} alt="Case Studio" />
-                  </div>
-                  <div className="case-studio-img-card simple-shadow">
-                    <a href="/portfolio" className="case-studio-cat">Mobile Development</a>
-                    <img src={caseStudio10} alt="Case Studio" />
-                  </div>
-                </div>
-                <div className="right">
-                  <div className="case-studio-contents service-card card-h">
-                    <img src={serviceIcon5} alt="ICON" />
-                    <h3>Industry-Specific Solutions</h3>
-                    <p>
-                    Tailored technology for restaurants, events, and more.
-                    </p>
-                    <a href="#" className="theme-btn">
                       <i className="iconoir-arrow-up-right"></i>
                     </a>
                   </div>
