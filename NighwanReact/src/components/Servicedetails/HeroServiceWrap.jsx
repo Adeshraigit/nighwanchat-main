@@ -53,6 +53,7 @@ const HeroServiceWrap = ({type}) => {
   }
 
   return (
+    <>
     <section className="hero-service-wrap hero-section-wrap hero-overview-wrap">
       <div style={{ paddingTop: '100px'}} className="hero-section-content-wrap">
         <div className="custom-container">
@@ -71,6 +72,7 @@ const HeroServiceWrap = ({type}) => {
         </div>
       </div>
     </section>
+   </>
   );
 };
 

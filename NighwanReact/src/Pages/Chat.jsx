@@ -84,25 +84,48 @@ export default function Chat() {
     }
   };
 
-  const sendChatMessage = async (message) => {
+  const logQuestionToAPI = async (message) => {
     try {
-        const response = await fetch('https://nighwanchat.onrender.com/chat', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ query: message }),
-        });
+      const requestBody = {
+        isActive: true,
+        createdOn: new Date().toISOString(),
+        createdBy: "User",
+        updatedBy: "User",
+        updatedOn: new Date().toISOString(),
+        aiQuestionBankId: 0,
+        aiQuestionBankName: message,
+        aiQuestionBankIds: [0],
+      };
 
-        if (!response.ok) throw new Error(`Failed to send message: ${response.status}`);
-
-        const data = await response.json();
-        if (data.error) throw new Error(data.error);
-
-        return data.response;
+      await fetch('https://hrmsapi.leanxpert.in/api/AIQuestionBank', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(requestBody),
+      });
     } catch (err) {
-        console.error(err.message);
-        return null;
+      console.error("Error logging question:", err.message);
     }
-};
+  };
+
+  const getChatbotResponse = async (message) => {
+    try {
+      const response = await fetch('https://nighwanchat.onrender.com/chat', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ query: message }),
+      });
+
+      if (!response.ok) throw new Error(`Failed to send message: ${response.status}`);
+
+      const data = await response.json();
+      if (data.error) throw new Error(data.error);
+
+      return data.response;
+    } catch (err) {
+      console.error(err.message);
+      return null;
+    }
+  };
 
   const sendMessage = useCallback(async () => {
     if (!inputMessage.trim() || isLoading) return;
@@ -150,7 +173,8 @@ export default function Chat() {
           break;
 
         case 'chat':
-          const responseMessage = await sendChatMessage(trimmedMessage);
+          await logQuestionToAPI(trimmedMessage);
+          const responseMessage = await getChatbotResponse(trimmedMessage);
           if (responseMessage) {
             setMessages((prev) => [...prev, { text: responseMessage, type: 'system' }]);
           }

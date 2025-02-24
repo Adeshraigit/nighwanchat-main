@@ -9,7 +9,7 @@ import '../../assets/css/responsive.css'; // Import your responsive CSS
 
 const TestimonialArea = () => {
   return (
-    <section className="testimonial-area">
+    <section style={{ paddingBottom: '0px' }} className="testimonial-area">
       <div className="custom-container">
         <div className="testimonial-slider-wrap">
           <Swiper

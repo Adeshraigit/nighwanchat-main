@@ -1,6 +1,6 @@
 import React from 'react'
 import HeroServiceWrap from '../components/Servicedetails/HeroServiceWrap';
-import NewReleaseHeroImgArea from '../components/Servicedetails/NewReleaseHeroImgArea';
+import NewReleaseHeroImgArea from '../components/Servicedetails/NewReleaseHeroImgArea.jsx';
 // import Feature3Area from '../components/Service/Feature3Area';
 import AboutService7Area from '../components/Servicedetails/AboutService7Area';
 import AboutService3Area from '../components/Servicedetails/AboutService3Area';
@@ -23,7 +23,7 @@ const ServicedetailsPage = () => {
         <meta name="robots" content="index, follow" />
         </Helmet>
         <HeroServiceWrap type={type} />
-        <NewReleaseHeroImgArea/>
+        <NewReleaseHeroImgArea type={type} />
         <AboutService7Area type={type} />
         {/* <Service4Area /> */}
         <AboutService3Area type={type} />

@@ -8,117 +8,227 @@ import '../../assets/css/responsive.css'; // Import your responsive CSS
 
 const ContactArea = () => {
   return (
-    <section className="contact2-area">
-      <div className="custom-container">
-        <div className="section-header d-flex align-items-center justify-content-between">
-          <div className="left">
-            <h5 className="section-subtitle">Contact</h5>
-            <h1 className="section-title">We have branches all over the india</h1>
-          </div>
-          <p>
-            Reach out to us through the contact form below, and a member of our dedicated team will
-            respond promptly. We're here to listen, assist, and collaborate.
-          </p>
-        </div>
-        <div className="contact2-body">
-          <div className="contact-map-wrap">
-            <div className="mac-btns-wrap d-flex align-items-center justify-content-between">
-              <div className="mac-buttons d-flex align-items-center">
-                <span></span>
-                <span></span>
-                <span></span>
-              </div>
-              <div className="action-btn d-flex align-items-center">
-                <span></span>
-                <span></span>
-                <span></span>
-              </div>
-            </div>
-
-            <div id="map">
-              {[...Array(6)].map((_, index) => (
-                <div className="map-location-item" key={index}>
-                  <div className="map-location-item-inner">
-                    <img src={flag} alt="Flag" />
-                    <div className="content">
-                      <h3>New York, USA</h3>
-                      <p>
-                        720/5, Starc Street,
-                        <br />
-                        North View, New York
-                      </p>
+    <section className="contact-area">
+        <div className="custom-container">
+          <div className="custom-row">
+            {/* <div className="contact-form-wrap">
+               <div className="contact-form-body">
+                <h5 className="section-subtitle">Contact</h5>
+                <h1 className="section-title">Let's get in touch</h1>
+                <p>
+                  You can reach us anytime via{' '}
+                  <a href="mailto:contact@nighwantech.com">contact@nighwantech.com</a>
+                </p>
+                <form className="contact-form" onSubmit={handleSubmit}>
+                  <div className="input-row">
+                    <div className="input-group">
+                      <input
+                        id="first_name"
+                        type="text"
+                        name="first_name"
+                        placeholder={errors.first_name ? " Name is required." : "Your Name"}
+                        value={formData.first_name}
+                        onChange={handleChange}
+                        className={errors.first_name ? "error-input" : ""}
+                      />
                     </div>
                   </div>
-                  <span className="circle"></span>
-                </div>
-              ))}
-              <img src={mapImg} alt="Map" />
-            </div>
-          </div>
+                  <div className="input-row">
+                    <div className="input-group">
+                      <input
+                        id="email"
+                        type="email"
+                        name="email"
+                        placeholder={errors.email ? "Please enter a valid email address." : "Your Email"}
+                        value={formData.email}
+                        onChange={handleChange}
+                        className={errors.email ? "error-input" : ""}
+                      />
+                    </div>
+                  </div>
+                  <div className="input-row">
+                    <div className="input-group phone-number">
+                      <select className="number-prefix">
+                        <option value="IN">IN</option>
+                      </select>
+                      <label htmlFor="phone_number"></label>
+                      <input
+                        id="phone_number"
+                        type="tel"
+                        name="phone_number"
+                        placeholder={errors.phone_number ? "Please enter a valid 10-digit phone number." : "Your Number"}
+                        value={formData.phone_number}
+                        onChange={handleChange}
+                        className={errors.phone_number ? "error-input" : ""}
+                      />
+                    </div>
+                  </div>
+                  <div className="input-row">
+                    <div className="input-group">
+                      <textarea
+                        name="message"
+                        id="message"
+                        placeholder="Leave us a message...."
+                        value={formData.message}
+                        onChange={handleChange}
+                      ></textarea>
+                      {errors.message && (
+                        <span className="error-message">{errors.message}</span>
+                      )}
+                    </div>
+                  </div>
+                  <div className="input-row">
+                    <div className="input-group input-checkbox">
+                      <input
+                        type="checkbox"
+                        id="privacy_policy_accept"
+                        name="privacy_policy_accept"
+                        checked={formData.privacy_policy_accept}
+                        onChange={handleChange}
+                      />
+                      <label htmlFor="privacy_policy_accept">
+                        You agree to our <a href="#">terms and conditions.</a>
+                      </label>
+                      {errors.privacy_policy_accept && (
+                        <span className="error-message">{errors.privacy_policy_accept}</span>
+                      )}
+                    </div>
+                  </div>
+                  <div className="input-row">
+                    {hcaptchaError ? (
+                      <div className="error-message">{hcaptchaError}</div>
+                    ) : (
+                      <HCaptcha
+                        ref={captchaRef}
+                        sitekey="caca3a8a-c728-4fcc-841c-795674a87c92"
+                        onLoad={handleLoad}
+                        onVerify={handleVerify}
+                        onExpire={handleExpire}
+                        onError={handleError}
+                      />
+                    )}
+                  </div>
+                  <div className="input-row">
+                    <div className="input-group">
+                      <button id="submit" className="theme-btn" type="submit" disabled={isLoading}>
+                        {isLoading ? "Submitting..." : "Get Started"}
+                      </button>
+                    </div>
+                  </div>
+                  <div className="input-row">
+                    <div className="input-group alert-notification">
+                      <div id="alert-message" className="alert-msg">{alertMessage}</div>
+                    </div>
+                  </div>
+                </form>
+              </div> 
+            </div> */}
 
-          <div className="contact2-infos d-flex">
-            <div className="contact2-info-box">
-              <img src={supportIcon} alt="Icon" />
-              <h2>Contact Info</h2>
-              <ul>
-                <li>+1 455 1482 236</li>
-                <li>bluebase@mail.com</li>
-                <li>mandro@mail.com</li>
-              </ul>
-            </div>
-            <div className="contact2-info-box contact2-visit-our-office">
-              <img src={mapIcon} alt="Icon" />
-              <h2>Visit our office</h2>
-              <p className="address">
-                16/9, Down Street
-                <br />
-                Edinburgh, Scotland
-                <br />
-                United Kingdom
-              </p>
-            </div>
-            <div className="contact2-info-box contact2-social-links">
+            <div className="contact-experience">
               <ul>
                 <li>
-                  <a href="#">
-                    <i className="iconoir-dribbble"></i>Dribbble
-                  </a>
+                  <h1>
+                    18+ <span>Years</span>
+                  </h1>
+                  <p>Field Experience</p>
                 </li>
                 <li>
-                  <a href="#">
-                    <i className="iconoir-twitter"></i>Twitter
-                  </a>
+                  <h1>
+                    150+ <span>Projects</span>
+                  </h1>
+                  <p>Done Around World</p>
                 </li>
                 <li>
-                  <a href="#">
-                    <i className="iconoir-instagram"></i>Instagram
-                  </a>
+                  <h1>99%</h1>
+                  <p>Client Satisfaction</p>
                 </li>
                 <li>
-                  <a href="#">
-                    <i className="iconoir-linkedin"></i>Linkedin
-                  </a>
+                  <h1>
+                    2020+ <span>Year</span>
+                  </h1>
+                  <p>Established On</p>
+                </li>
+                <li>
+                  <h1>
+                    2 <span>Mins</span>
+                  </h1>
+                  <p>Response Time</p>
                 </li>
               </ul>
             </div>
-            <div className="contact2-info-box contact2-experience">
-              <div className="contact2-experience-list">
-                <h1>
-                  22+ <span>Years</span>
-                </h1>
-                <p>Field Experience</p>
-              </div>
-              <div className="contact2-experience-list">
-                <h1>
-                  950+ <span>Projects</span>
-                </h1>
-                <p>Done Around World</p>
+
+            <div className="contact-infos">
+              <div className="contact-infos-inner">
+                <div className="contact-info">
+                  <img src={supportIcon} alt="Support" />
+                  <h3>Contact Info</h3>
+                  <p>
+                    +91 8985025794 <br />
+                    contact@nighwantech.com
+                  </p>
+                </div>
+                <div className="contact-office-info contact-info">
+                  <img src={mapIcon} alt="Map" />
+                  <h3>Visit our office</h3>
+                  <p>
+                    Gulmohar Park,
+                    <br />
+                    Hyderabad,
+                    <br />
+                    TN, 500019
+                  </p>
+                </div>
+                <ul className="contact-social-links">
+                  <li>
+                    <a href="https://www.facebook.com/Nighwantech">
+                      <i className="iconoir-facebook"></i>
+                      Facebook
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://x.com/nighwantech">
+                      <i className="iconoir-x"></i>
+                      X
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.instagram.com/nighwantech/">
+                      <i className="iconoir-instagram"></i>
+                      Instagram
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.linkedin.com/company/nighwan-technology-pvt-ltd/">
+                      <i className="iconoir-linkedin"></i>
+                      Linkedin
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.youtube.com/@Nighwantech">
+                      <i className="iconoir-youtube"></i>
+                      Youtube
+                    </a>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+
+        {/* Embedded CSS */}
+        <style jsx>{`
+          .error-input {
+            border-color: red !important;
+            color: red !important;
+          }
+
+          .error-message {
+            color: red;
+            font-size: 0.875rem;
+            margin-top: 0.25rem;
+          }
+        `}</style>
+      </section>
   );
 };
 

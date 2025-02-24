@@ -207,7 +207,7 @@ const PortfolioArea = () => {
           </div>
         </div>
 
-        <div className="portfolio-items">
+        {/* <div className="portfolio-items">
           <div className="portfolio-item-col portfolio-darkgray-box">
             <div className="project-item">
               <div className="project-item-inner">
@@ -230,7 +230,7 @@ const PortfolioArea = () => {
               <p>A data-driven digital marketing platform to automate campaigns, analyze customer behavior, and improve engagement.</p>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
