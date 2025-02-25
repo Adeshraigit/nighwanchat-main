@@ -29,8 +29,7 @@ const PortfolioArea = () => {
                 </h2>
                 <img src={ERP} alt="Project" />
               </div>
-            </div>
-            
+            </div>         
             <div className="portfolio-sample-details">
               <img src={bgShape2} alt="Shape" className="bg-shape" />
               <h3>
@@ -40,13 +39,12 @@ const PortfolioArea = () => {
               </h3>
               <p>A custom-built ERP solution tailored for businesses looking to integrate and automate their operations.</p>
             </div>
-           
           </div>
 
           <div className="portfolio-item-col portfolio-gray-box">
             <div className="project-item">
               <div className="project-item-inner">
-                <h2>
+                <h2 className="white" >
                 <Link to={"/product-detail/ai"} >
                   AI-Powered <br />
                   Sales <br />

@@ -43,15 +43,15 @@ const Service4Area = () => {
         </div>
 
         <div className="services-list">
-          {services.map((service, index) => (
-            <Link to={service.link == "lean" ? "/lean" : `/service-details/${service.link}`} >
-            <div key={index} className="service-card simple-shadow">
+          {services.map((service, key) => (
+            <Link key={key} to={service.link == "lean" ? "/lean" : `/service-details/${service.link}`} >
+            <div  className="service-card simple-shadow">
               {service.badge && (
                 <span className="service-badge">{service.badge}</span>
               )}
               <img src={service.icon} alt="Service Icon" className="service-icon" />
               <h3>
-                <a href={`/service-details/${service.link}`}>{service.title}</a>
+                <Link href={`/service-details/${service.link}`}>{service.title}</Link>
               </h3>
               <p>{service.description}</p>
             </div>

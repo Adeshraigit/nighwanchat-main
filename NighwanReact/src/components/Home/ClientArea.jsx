@@ -195,7 +195,7 @@ const ClientArea = () => {
     <section className="client-area">
       <div className="clients clients-marquee d-flex align-items-center">
         <div className="client-logo simple-shadow">
-          <img src={client1} alt="Client" />
+          <img  src={client1} alt="Client" />
         </div>
         <div className="client-logo simple-shadow">
           <img src={client2} alt="Client" />

@@ -1,11 +1,8 @@
 import React, { useState } from 'react';
-import caseStudio9 from '../../assets/imgs/case-studio-9.jpg';
-import caseStudio10 from '../../assets/imgs/case-studio-10.jpg';
 import serviceIcon1 from '../../assets/imgs/service-icon-1.svg'; // Adjust the path to your icons
-import serviceIcon2 from '../../assets/imgs/service-icon-2.svg';
-import serviceIcon3 from '../../assets/imgs/service-icon-3.svg';
-import serviceIcon4 from '../../assets/imgs/service-icon-4.svg';
-import serviceIcon5 from '../../assets/imgs/service-icon-5.svg';
+import tmsSvg from '../../assets/imgs/tms.svg';
+import dataSvg from '../../assets/imgs/hwd-icon-4.svg';
+import hrmsIcon from '../../assets/imgs/hrmsIcon.png';   
 import dataBig from '../../assets/imgs/dataBig.png';
 import hrmsBig from '../../assets/imgs/hrmsBig.png';
 import tmsBig from '../../assets/imgs/tmsBig.png';
@@ -16,6 +13,7 @@ import tms from '../../assets/imgs/tms.png';
 import ecommerce from '../../assets/imgs/ecom.png';
 import '../../assets/css/style.css'; // Import your custom CSS
 import '../../assets/css/responsive.css'; // Import your responsive CSS
+import ecomSvg from '../../assets/imgs/ecom.svg';
 
 const CaseStudioArea = () => {
   const [activeTab, setActiveTab] = useState('development');
@@ -97,7 +95,7 @@ const CaseStudioArea = () => {
                 </div>
                 <div className="right">
                   <div className="case-studio-contents service-card card-h">
-                    <img src={serviceIcon1} alt="ICON" />
+                    <img src={hrmsIcon} alt="ICON" />
                     <h3>HRMS with Job Portal</h3>
                     <p>
                     AI-powered recruitment, workforce management, and payroll in one centralized platform.
@@ -130,7 +128,7 @@ const CaseStudioArea = () => {
                 </div>
                 <div className="right">
                   <div className="case-studio-contents service-card card-h">
-                    <img src={serviceIcon2} alt="ICON" />
+                    <img src={tmsSvg} alt="ICON" />
                     <h3>TMS (Transport Management System)</h3>
                     <p>
                     Smart logistics management with real-time tracking and route optimization.
@@ -163,7 +161,7 @@ const CaseStudioArea = () => {
                 </div>
                 <div className="right">
                   <div className="case-studio-contents service-card card-h">
-                    <img src={serviceIcon3} alt="ICON" />
+                    <img src={ecomSvg} alt="ICON" />
                     <h3>E-Commerce Platform</h3>
                     <p>
                     Vendor-friendly features, sales forecasting, and secure payment gateways for seamless transactions.
@@ -196,7 +194,7 @@ const CaseStudioArea = () => {
                 </div>
                 <div className="right">
                   <div className="case-studio-contents service-card card-h">
-                    <img src={serviceIcon4} alt="ICON" />
+                    <img src={dataSvg} alt="ICON" />
                     <h3>Data Analytics Platform</h3>
                     <p>
                     Comprehensive analytics dashboards, predictive modeling, and insights for data-driven decisions.

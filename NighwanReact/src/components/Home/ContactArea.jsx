@@ -329,7 +329,7 @@ const ContactArea = () => {
                 </li>
                 <li>
                   <h1>
-                    2020+ <span>Year</span>
+                    2020 <span>Year</span>
                   </h1>
                   <p>Established On</p>
                 </li>
@@ -356,11 +356,9 @@ const ContactArea = () => {
                   <img src={mapIcon} alt="Map" />
                   <h3>Visit our office</h3>
                   <p>
-                    Gulmohar Park,
+                  Hyderabad,TS
                     <br />
-                    Hyderabad,
-                    <br />
-                    TN, 500019
+                  Gaya, BH
                   </p>
                 </div>
                 <ul className="contact-social-links">

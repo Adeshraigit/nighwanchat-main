@@ -1657,6 +1657,10 @@ img {
 }
 .client-area .clients .client-logo img {
     display: block;
+    width: 250px !important;  /* Force width */
+    height: 250px !important; /* Force height */
+    object-fit: contain; 
+    /* border: 2px solid red;  */
 }
 .client-area-2 {
     padding-top: 0;

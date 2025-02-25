@@ -5,7 +5,7 @@ import about from "../../assets/imgs/NighwanTech Startup.png"
 
 const CompanyServiceArea = () => {
   return (
-    <section className="company-service-area">
+    <section style={{ paddingTop: '10px', paddingBottom: '100px' }} className="company-service-area">
       <div className="custom-container">
         <div className="hero-service-about">
           <div className="section-header d-flex align-items-center justify-content-between w-full">

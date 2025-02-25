@@ -11,92 +11,11 @@ import '../assets/css/responsive.css'; // Import your responsive CSS
 const Footer = () => {
   return (
     <>
-      <footer className="footer-area">
-        <img src={bgShape} alt="Shape" className="animation-slide-right bg-shape" />
-
-        {/* ===== Footer Top Section ===== */}
-        <div className="footer-top">
-          <div className="custom-container">
-            <div className="custom-row align-items-end justify-content-between">
-              <div className="left-content">
-                <a href="/" className="logo">
-                  <img src={logoWhite} alt="Logo" />
-                </a>
-                <p>
-                  We provide the expertise and support to <br />propel your business forward.
-                </p>
-                {/* <form
-                  className="subscribe-form"
-                >
-                  <div className="subscribe-box d-flex">
-                    <input type="email" id="email" name="email" placeholder="Enter Your Email" />
-                    <button id="submit2" className="theme-btn">Get Started</button>
-                  </div>
-                  <div className="input-row">
-                    <div className="input-group alert-notification">
-                      <div id="alert-message-subscribe" className="alert-msg"></div>
-                    </div>
-                  </div>
-                </form> */}
-                {/* Client Logos */}
-                {/* <div className="footer-clients d-flex align-items-center">
-                  <div className="footer-client-img">
-                    <img src={youtubeIcon} alt="Youtube" />
-                  </div>
-                  <div className="footer-client-img">
-                    <img src={webflowIcon} alt="Webflow" />
-                  </div>
-                  <div className="footer-client-img">
-                    <img src={upworkIcon} alt="Upwork" />
-                  </div>
-                  <div className="footer-client-img">
-                    <img src={shopifyIcon} alt="Shopify" />
-                  </div>
-                </div> */}
-              </div>
-
-              <div className="right-content">
-                <div className="right-content-inner">
-                  <h2>Let’s get started on something great</h2>
-                  <p>
-                    Our team of IT experts looks forward to meeting with you <br />
-                    and providing valuable insights tailored to your business.
-                  </p>
-                  <a href="/contact" className="theme-btn">Get an appointment now</a>
-
-                  <div className="footer-experience d-flex align-items-center">
-                    <div className="footer-experience-item">
-                      <h1>2 <span>Mins</span></h1>
-                      <p>Response Time</p>
-                    </div>
-                    <div className="footer-experience-item">
-                      <h1>99%</h1>
-                      <p>Client Satisfaction</p>
-                    </div>
-                    <div className="footer-experience-item">
-                      <h1>18+ <span>Years</span></h1>
-                      <p>Field Experience</p>
-                    </div>
-                  </div>
-                  <div className="footer-experience d-flex align-items-center">
-                    <div className="footer-experience-item">
-                      <h1>150+ <span>Projects</span></h1>
-                      <p>Done Around World</p>
-                    </div>
-                    <div className="footer-experience-item">
-                      <h1>2020 <span>Years</span></h1>
-                      <p>Established On</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
+      <footer style={{ paddingTop: '30px', paddingBottom: '10px' }} className="footer-area">
+        {/* <img src={bgShape} alt="Shape" className="animation-slide-right bg-shape" /> */}
         {/* ===== Footer Bottom Section ===== */}
         {/* Desktop Version – remains unchanged */}
-        <div className="footer-bottom desktop-footer">
+        <div style={{ paddingTop: '0px', paddingBottom: '0px', marginTop: '0px' }} className="footer-bottom desktop-footer">
           <div className="custom-container">
             <div className="custom-row">
               <div className="footer-all-links-wrap justify-content-between d-flex">
@@ -104,38 +23,38 @@ const Footer = () => {
                   <h3>Services</h3>
                   <ul>
                     <li><a href="/lean">Lean Consultancy</a></li>
-                    <li><a href="/service-details/Branding">Branding</a></li>
                     <li><a href="/service-details/ERP">ERP Development</a></li>
                     <li>
                       <a href="/service-details/aim">
                       AI/ML Solutions
                       </a>
                     </li>
-                    <li><a href="/service-details/Web">Web/Mobile App Development</a></li>
                     <li><a href="/service-details/Data">Data Analytics
                     </a></li>
+                    <li><a href="/service-details/Web">Web / Mobile</a></li>
+                    <li><a href="/service-details/Branding">Branding</a></li>
                   </ul>
                 </div>
                 <div className="footer-links">
                   <h3>Company</h3>
                   <ul>
-                    <li><a href="/blog">Blog</a></li>
-                    <li><a href="/about">Our Roots</a></li>
                     <li><a href="/lean">Lean Consultancy</a></li>
+                    <li><a href="/about">Our Roots</a></li>
                     <li><a href="/service">Services</a></li>
                     <li><a href="/product">Product</a></li>
                     <li><a href="/career">Careers</a></li>
+                    <li><a href="/blog">Blog</a></li>
                   </ul>
                 </div>
                 <div className="footer-links">
                   <h3>Product</h3>
                   <ul>
-                    <li><a href="/product-detail/erp">ERP System</a></li>
-                    <li><a href="/product-detail/ai">AI-Powered Sales Forecasting</a></li>
-                    <li><a href="/product-detail/b2b">B2B E-Commerce Platform</a></li>
                     <li><a href="/product-detail/iot">Iot - Enabled Predictive Maintenance</a></li>
-                    <li><a href="/product-detail/hrms">HRMS</a></li>
+                    <li><a href="/product-detail/ai">AI-Powered Sales Forecasting</a></li>
                     <li><a href="/product-detail/tms">Transport Management System</a></li>
+                    <li><a href="/product-detail/b2b">B2B E-Commerce Platform</a></li>
+                    <li><a href="/product-detail/erp">ERP System</a></li>
+                    <li><a href="/product-detail/hrms">HRMS</a></li>
                   </ul>
                 </div>
               </div>
@@ -168,41 +87,42 @@ const Footer = () => {
                 <div className="footer-links">
                   <h3>Services</h3>
                   <ul>
-                    <li><a href="/service">IT Support</a></li>
-                    <li><a href="service-details.html">Web Design</a></li>
-                    <li><a href="service-details.html">Development</a></li>
+                    <li><a href="/lean">Lean Consultancy</a></li>
+                    <li><a href="/service-details/ERP">ERP Development</a></li>
                     <li>
-                      <a href="service-details.html">
-                        Cloud Things <span className="new">New</span>
+                      <a href="/service-details/aim">
+                      AI/ML Solutions
                       </a>
                     </li>
-                    <li><a href="service-details.html">E-Commerce</a></li>
-                    <li><a href="service-details.html">CRM Solutions</a></li>
+                    <li><a href="/service-details/Data">Data Analytics
+                    </a></li>
+                    <li><a href="/service-details/Web">Web / Mobile</a></li>
+                    <li><a href="/service-details/Branding">Branding</a></li>
                   </ul>
                 </div>
                 <div className="footer-links">
                   <h3>Company</h3>
                   <ul>
+                    <li><a href="/lean">Lean Consultancy</a></li>
+                    <li><a href="/about">Our Roots</a></li>
+                    <li><a href="/service">Services</a></li>
+                    <li><a href="/product">Product</a></li>
+                    <li><a href="/career">Careers</a></li>
                     <li><a href="/blog">Blog</a></li>
-                    <li><a href="about.html">About Us</a></li>
-                    <li><a href="partner.html">Partners</a></li>
-                    <li><a href="career.html">Careers</a></li>
-                    <li><a href="event.html">Events</a></li>
-                    <li><a href="#">Team</a></li>
                   </ul>
                 </div>
               </div>
               {/* Group B: Product & Contact Info side by side */}
               <div className="footer-column group-b">
-                <div className="footer-links">
+              <div className="footer-links">
                   <h3>Product</h3>
                   <ul>
-                    <li><a href="case-studie.html">Case Studies</a></li>
-                    <li><a href="pricing.html">Our Pricing</a></li>
-                    <li><a href="feature.html">Features</a></li>
-                    <li><a href="overview.html">Overview</a></li>
-                    <li><a href="new-release.html">New Releases</a></li>
-                    <li><a href="solution.html">Solutions</a></li>
+                    <li><a href="/product-detail/iot">Iot - Enabled Predictive Maintenance</a></li>
+                    <li><a href="/product-detail/ai">AI-Powered Sales Forecasting</a></li>
+                    <li><a href="/product-detail/tms">Transport Management System</a></li>
+                    <li><a href="/product-detail/b2b">B2B E-Commerce Platform</a></li>
+                    <li><a href="/product-detail/erp">ERP System</a></li>
+                    <li><a href="/product-detail/hrms">HRMS</a></li>
                   </ul>
                 </div>
                 <div className="footer-contact-info">
@@ -227,7 +147,7 @@ const Footer = () => {
         </div>
 
         {/* ===== Copyright Area ===== */}
-        <div className="copyright-area">
+        <div style={{ padding: '10px' }} className="copyright-area">
           <div className="custom-container">
             <div className="custom-row d-flex align-items-center justify-content-between">
               <ul className="social-links d-flex align-items-center">
@@ -257,10 +177,9 @@ const Footer = () => {
                   </a>
                 </li>
               </ul>
-
               <p>
                 &copy; 2025 All rights reserved by{' '}
-                <a href="https://nighwantech.com/">Nighwan Tech</a>
+                <a href="https://nighwantech.com/">Nighwan Technology</a>
               </p>
               <p>
                 <a href="/terms-and-conditions">Terms and Conditions</a> | 

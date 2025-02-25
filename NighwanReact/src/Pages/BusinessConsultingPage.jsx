@@ -5,7 +5,7 @@ import ServiceArea from '../components/BusinessConsulting/ServiceArea'
 import AboutArea from '../components/BusinessConsulting/AboutArea'
 import FeatureArea from '../components/BusinessConsulting/FeatureArea'
 import TestimonialArea from '../components/Home/TestimonialArea'
-import ContactArea from '../components/BusinessConsulting/ContactArea'
+import ContactArea from '../components/Home/ContactArea'
 import { Helmet } from "react-helmet";
 
 const BusinessConsulting = () => {
