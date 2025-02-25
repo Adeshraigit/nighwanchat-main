@@ -15,7 +15,7 @@ function Portfoliodetail() {
     <HeroSection type={type} />
     {/* <NewReleaseHeroImage/> */}
     <BlogDetails type={type} />
-    <CtaArea/>
+    {/* <CtaArea/> */}
     <ProjectArea/>
     <ContactArea/>
     </>

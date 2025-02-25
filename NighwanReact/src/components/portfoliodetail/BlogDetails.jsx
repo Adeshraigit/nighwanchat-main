@@ -60,15 +60,8 @@ const BlogDetails = ({type}) => {
       two : "One of the most transformative IT solutions is the combination of DevOps automation and cloud computing. With features such as CI/CD pipelines, cloud migration, and Kubernetes-based microservices, businesses can accelerate development cycles while ensuring scalability and reliability.",
       three : "DevOps and cloud solutions have become essential for modern enterprises. By enabling faster software development, improving infrastructure reliability, and enhancing security compliance, businesses can optimize their IT operations and drive innovation.",
       img : dev
-    }, 
-    "digital" : {
-      one : "In the era of digital transformation, businesses need intelligent marketing solutions to enhance online visibility and customer engagement. A data-driven digital marketing automation platform streamlines campaigns, tracks customer behavior, and optimizes marketing strategies.",
-      two : "One of the most effective marketing solutions is AI-powered automation, which includes content marketing, SEO optimization, social media scheduling, and email marketing. By leveraging AI and analytics, businesses can personalize customer interactions and improve conversion rates.",
-      three : "Digital marketing automation has become essential for businesses looking to scale their online presence. By automating workflows, tracking customer behavior, and utilizing data-driven strategies, businesses can maximize ROI and drive long-term growth.",
-      // img : digital
     }
   }
-
     return (
       <section className="blog-details-area portfolio-details-area">
         <div className="custom-container">

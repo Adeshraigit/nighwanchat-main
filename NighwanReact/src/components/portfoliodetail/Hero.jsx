@@ -48,10 +48,6 @@ const HeroSection = ({type}) => {
       one : "DevOps & Cloud Solutions",
       two : "A fully automated DevOps platform to streamline software development and deployment.",
       img : dev 
-    }, 
-    "digital" : {
-      one : "Digital Marketing Automation",
-      two : "A data-driven digital marketing platform to automate campaigns, analyze customer behavior, and improve engagement.",
     }
   }
 
