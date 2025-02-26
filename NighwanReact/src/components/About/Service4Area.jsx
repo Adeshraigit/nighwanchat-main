@@ -1,14 +1,14 @@
 import React from 'react';
 import '../../assets/css/style.css'; // Import your custom CSS
 import '../../assets/css/responsive.css'; // Import your responsive CSS
-import serviceIcon1 from '../../assets/imgs/service-icon-1.svg'; // Import images
+import serviceIcon1 from '../../assets/imgs/service-icon-1.svg';
+import serviceIcon7 from '../../assets/imgs/service-icon-7.svg';
+import serviceIcon4 from '../../assets/imgs/service-icon-4.svg';
+import hwdIcon4 from '../../assets/imgs/hwd-icon-4.svg';
 import serviceIcon2 from '../../assets/imgs/service-icon-2.svg';
 import serviceIcon3 from '../../assets/imgs/service-icon-3.svg';
-import serviceIcon4 from '../../assets/imgs/service-icon-4.svg';
 import serviceIcon5 from '../../assets/imgs/service-icon-5.svg';
 import serviceIcon6 from '../../assets/imgs/service-icon-6.svg';  
-import hwdIcon4 from '../../assets/imgs/hwd-icon-4.svg';
-import serviceIcon7 from '../../assets/imgs/service-icon-7.svg';
 import serviceIcon8 from '../../assets/imgs/service-icon-8.svg';
 import serviceIcon9 from '../../assets/imgs/service-icon-9.svg';    
 import { Link } from 'react-router-dom';

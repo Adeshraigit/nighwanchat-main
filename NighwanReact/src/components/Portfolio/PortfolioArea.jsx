@@ -44,7 +44,7 @@ const PortfolioArea = () => {
           <div className="portfolio-item-col portfolio-gray-box">
             <div className="project-item">
               <div className="project-item-inner">
-                <h2 className="white" >
+                <h2 className='white' >
                 <Link to={"/product-detail/ai"} >
                   AI-Powered <br />
                   Sales <br />

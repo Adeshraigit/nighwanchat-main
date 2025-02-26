@@ -7,12 +7,15 @@ import '../assets/css/line.css';
 import hwdIcon1 from '../assets/imgs/hwd-icon-1.svg';
 import hwdIcon2 from '../assets/imgs/hwd-icon-2.svg';
 import hwdIcon3 from '../assets/imgs/hwd-icon-3.svg';
-import hwdIcon4 from '../assets/imgs/hwd-icon-4.svg';
 import portfolio1 from '../assets/imgs/portfolio-mega-menu-1.jpg';
 import portfolio2 from '../assets/imgs/portfolio-mega-menu-2.jpg';
 import portfolio3 from '../assets/imgs/portfolio-mega-menu-3.jpg';
 import portfolio4 from '../assets/imgs/portfolio-mega-menu-4.jpg';
-import ipad from '../assets/imgs/ipad.jpg';
+import hrms from '../assets/imgs/hrms.png';
+import serviceIcon1 from '../assets/imgs/service-icon-1.svg';
+import serviceIcon7 from '../assets/imgs/service-icon-7.svg';
+import serviceIcon4 from '../assets/imgs/service-icon-4.svg';
+import hwdIcon4 from '../assets/imgs/hwd-icon-4.svg';
 
 // Define CSS styles as JavaScript objects
 const styles = {
@@ -108,7 +111,6 @@ const Navbar = () => {
         {styles.mobileStyles}
         {styles.smallDeviceStyles}
       </style>
-
       <header className="header-area">
         <div className="custom-container">
           <div className="custom-row align-items-center justify-content-between">
@@ -169,24 +171,23 @@ const Navbar = () => {
                                 <div className="mega-menu-service-cards align-items-start">
                                   <div className="mega-menu-service-card">
                                     <span className="icon">
-                                      <img src={hwdIcon1} alt="Service" />
+                                      <img src={serviceIcon1} alt="Service" />
                                     </span>
                                     <div className="content">
                                       <h2>
-                                        <Link to="/service" onClick={handleMenuItemClick}>Brainstorming</Link>
+                                        <Link to="/lean" onClick={handleMenuItemClick}>Lean Consultancy</Link>
                                       </h2>
-                                      <p>Ideas</p>
                                     </div>
                                   </div>
                                   <div className="mega-menu-service-card">
                                     <span className="icon">
-                                      <img src={hwdIcon4} alt="Service" />
+                                      <img src={serviceIcon4} alt="Service" />
                                     </span>
                                     <div className="content">
                                       <h2>
-                                        <Link to="/service" onClick={handleMenuItemClick}>Product</Link>
+                                        <Link to="/service-details/aim" onClick={handleMenuItemClick}>AI/ML Solutions
+                                        </Link>
                                       </h2>
-                                      <p>Design</p>
                                     </div>
                                   </div>
                                   <div className="mega-menu-service-card">
@@ -195,20 +196,19 @@ const Navbar = () => {
                                     </span>
                                     <div className="content">
                                       <h2>
-                                        <Link to="/service" onClick={handleMenuItemClick}>SEO</Link>
+                                        <Link to="/service-details/data" onClick={hwdIcon4}>Data Analytics</Link>
                                       </h2>
-                                      <p>Optimization</p>
                                     </div>
                                   </div>
                                   <div className="mega-menu-service-card">
                                     <span className="icon">
-                                      <img src={hwdIcon3} alt="Service" />
+                                      <img src={serviceIcon7} alt="Service" />
                                     </span>
                                     <div className="content">
                                       <h2>
-                                        <Link to="/service" onClick={handleMenuItemClick}>Front-End</Link>
+                                        <Link to="/service-details/iot" onClick={handleMenuItemClick}>IoT Solutions
+                                        </Link>
                                       </h2>
-                                      <p>Development</p>
                                     </div>
                                   </div>
                                 </div>
@@ -238,7 +238,7 @@ const Navbar = () => {
                                       </li>
                                       <li>
                                         <Link to="/service-details/Web" onClick={handleMenuItemClick} style={{ fontSize: '0.7em' }}>
-                                          Web/Mobile App Development
+                                          Web / Mobile App
                                         </Link>
                                       </li>
                                     </ul>
@@ -311,7 +311,7 @@ const Navbar = () => {
                             </div>
                             <div className="right">
                               <div className="mega-menu-ads">
-                                <img src={ipad} alt="iPad" />
+                                <img src={hrms} alt="iPad" />
                                 <h2>Our product hits</h2>
                                 <p>
                                   Our new best IT product of the <br />year 2023.
@@ -441,12 +441,13 @@ const Navbar = () => {
                             </div>
                             <div className="right">
                               <div className="mega-menu-ads">
-                                <img src={ipad} alt="iPad" />
-                                <h2>Mobile app for a new era</h2>
+                                <img src={hrms} alt="iPad" />
+                                <h2>HRMS with
+                                Job Portal</h2>
                                 <p>
-                                  Download slack in your mobile for <br />your daily usage.
+                                  Download HRMS in your mobile for <br />your daily usage.
                                 </p>
-                                <Link to="/case-study-single" onClick={handleMenuItemClick}>View more</Link>
+                                <Link to="/products" onClick={handleMenuItemClick}>View more</Link>
                               </div>
                             </div>
                           </div>
