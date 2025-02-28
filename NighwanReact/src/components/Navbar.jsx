@@ -4,9 +4,8 @@ import logo from '../assets/css/nighlogo.svg';
 import '../assets/css/style.css';
 import '../assets/css/responsive.css';
 import '../assets/css/line.css';
-import hwdIcon1 from '../assets/imgs/hwd-icon-1.svg';
 import hwdIcon2 from '../assets/imgs/hwd-icon-2.svg';
-import hwdIcon3 from '../assets/imgs/hwd-icon-3.svg';
+import hwdIcon4 from '../assets/imgs/hwd-icon-4.svg';
 import portfolio1 from '../assets/imgs/portfolio-mega-menu-1.jpg';
 import portfolio2 from '../assets/imgs/portfolio-mega-menu-2.jpg';
 import portfolio3 from '../assets/imgs/portfolio-mega-menu-3.jpg';
@@ -15,7 +14,6 @@ import hrms from '../assets/imgs/hrms.png';
 import serviceIcon1 from '../assets/imgs/service-icon-1.svg';
 import serviceIcon7 from '../assets/imgs/service-icon-7.svg';
 import serviceIcon4 from '../assets/imgs/service-icon-4.svg';
-import hwdIcon4 from '../assets/imgs/hwd-icon-4.svg';
 
 // Define CSS styles as JavaScript objects
 const styles = {
@@ -192,7 +190,7 @@ const Navbar = () => {
                                   </div>
                                   <div className="mega-menu-service-card">
                                     <span className="icon">
-                                      <img src={hwdIcon2} alt="Service" />
+                                      <img src={hwdIcon4} alt="Service" />
                                     </span>
                                     <div className="content">
                                       <h2>
