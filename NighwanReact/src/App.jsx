@@ -55,7 +55,7 @@ function App() {
           element: <BlogPage/>
         },
         {
-          path: "/blog-detail",
+          path: "/blogs/:type",
           element: <BlogDetailPage/>
         },
         {

@@ -2,10 +2,10 @@ import React from 'react';
 import news1 from '../assets/imgs/news-1.jpg'; // Adjust the path to your images
 import news2 from '../assets/imgs/news-2.jpg';
 import news3 from '../assets/imgs/news-3.jpg';
-import news4 from '../assets/imgs/news-4.jpg';
-import news5 from '../assets/imgs/news-5.jpg';
-import news6 from '../assets/imgs/news-6.jpg';
-import news7 from '../assets/imgs/news-7.jpg';
+// import news4 from '../assets/imgs/news-4.jpg';
+// import news5 from '../assets/imgs/news-5.jpg';
+// import news6 from '../assets/imgs/news-6.jpg';
+// import news7 from '../assets/imgs/news-7.jpg';
 import '../assets/css/style.css'; // Import your custom CSS
 import '../assets/css/responsive.css'; // Import your responsive CSS
 import FeatureArea from '../components/Home/FeatureArea';
@@ -65,7 +65,7 @@ const BlogPage = () => {
                   <i className="las la-check"></i> Smart Reminders
                 </li>
               </ul>
-              <a href="/blog-detail" className="theme-btn">
+              <a href="/blogs/aiml" className="theme-btn">
                 <i className="iconoir-arrow-up-right"></i>
               </a>
             </div>
@@ -104,7 +104,7 @@ const BlogPage = () => {
                     <i className="las la-check"></i> Task Management
                   </li>
                 </ul>
-                <a href="/blog-detail" className="theme-btn">
+                <a href="/blogs/erp" className="theme-btn">
                   <i className="iconoir-arrow-up-right"></i>
                 </a>
               </div>
@@ -137,145 +137,7 @@ const BlogPage = () => {
                     <i className="las la-check"></i> Requirement
                   </li>
                 </ul>
-                <a href="/blog-detail" className="theme-btn">
-                  <i className="iconoir-arrow-up-right"></i>
-                </a>
-              </div>
-            </div>
-
-            {/* News Item 3 */}
-            <div className="news-item card-h">
-              <div className="news-img-box">
-                <img src={news4} alt="News" />
-              </div>
-              <div className="news-item-body">
-                <h5 className="section-subtitle">WEB DEVELOPMENT</h5>
-                <h1 className="section-title">
-                  <a href="/blog-detail">
-                    Regulatory tech companies fear 25% knock-on hit from gaming GST
-                  </a>
-                </h1>
-                <p>
-                  But employees say whether the layoffs are fresh or previously announced, they’re
-                  still losing their jobs.
-                </p>
-                <ul>
-                  <li>
-                    <i className="las la-check"></i> Collaboration Tools
-                  </li>
-                  <li>
-                    <i className="las la-check"></i> Smart Reminders
-                  </li>
-                  <li>
-                    <i className="las la-check"></i> Requirement
-                  </li>
-                  <li>
-                    <i className="las la-check"></i> Task Management
-                  </li>
-                </ul>
-                <a href="/blog-detail" className="theme-btn">
-                  <i className="iconoir-arrow-up-right"></i>
-                </a>
-              </div>
-            </div>
-
-            {/* News Item 4 */}
-            <div className="news-item card-h">
-              <div className="news-img-box">
-                <img src={news5} alt="News" />
-              </div>
-              <div className="news-item-body">
-                <h5 className="section-subtitle">WEB DEVELOPMENT</h5>
-                <h1 className="section-title">
-                  <a href="/blog-detail">
-                    UN Security Council discusses AI risks, need for ethical regulation
-                  </a>
-                </h1>
-                <p>
-                  The UN Security Council met with two artificial intelligence experts this week to
-                  debate the benefit
-                </p>
-                <ul>
-                  <li>
-                    <i className="las la-check"></i> Collaboration Tools
-                  </li>
-                  <li>
-                    <i className="las la-check"></i> Smart Reminders
-                  </li>
-                  <li>
-                    <i className="las la-check"></i> Requirement
-                  </li>
-                </ul>
-                <a href="/blog-detail" className="theme-btn">
-                  <i className="iconoir-arrow-up-right"></i>
-                </a>
-              </div>
-            </div>
-
-            {/* News Item 5 */}
-            <div className="news-item card-h">
-              <div className="news-img-box">
-                <img src={news6} alt="News" />
-              </div>
-              <div className="news-item-body">
-                <h5 className="section-subtitle">WEB DEVELOPMENT</h5>
-                <h1 className="section-title">
-                  <a href="/blog-detail">
-                    New EU battery law could mean EOL for low-cost smartphones
-                  </a>
-                </h1>
-                <p>
-                  Apple might have wriggle room for the iPhone when it comes to new EU laws to make
-                  smartphone batteries user replaceable
-                </p>
-                <ul>
-                  <li>
-                    <i className="las la-check"></i> Collaboration Tools
-                  </li>
-                  <li>
-                    <i className="las la-check"></i> Smart Reminders
-                  </li>
-                  <li>
-                    <i className="las la-check"></i> Requirement
-                  </li>
-                  <li>
-                    <i className="las la-check"></i> Task Management
-                  </li>
-                </ul>
-                <a href="/blog-detail" className="theme-btn">
-                  <i className="iconoir-arrow-up-right"></i>
-                </a>
-              </div>
-            </div>
-
-            {/* News Item 6 */}
-            <div className="news-item card-h">
-              <div className="news-img-box">
-                <img src={news7} alt="News" />
-              </div>
-              <div className="news-item-body">
-                <h5 className="section-subtitle">WEB DEVELOPMENT</h5>
-                <h1 className="section-title">
-                  <a href="/blog-detail">
-                    FTC reported to be investigating OpenAI for consumer protection violations
-                  </a>
-                </h1>
-                <p>
-                  OpenAI is reportedly under additional legal scrutiny, as the US Federal Trade
-                  Commission asks the company to give detailed explanations
-                </p>
-                <ul>
-                  <li>
-                    <i className="las la-check"></i> Collaboration Tools
-                  </li>
-                  <li>
-                    <i className="las la-check"></i> Smart Reminders
-                  </li>
-                  <li>
-                    <i className="las la-check"></i> Requirement
-                  </li>
-                </ul>
-                <a href="/blog-detail" className="theme-btn">
+                <a href="/blogs/hrms" className="theme-btn">
                   <i className="iconoir-arrow-up-right"></i>
                 </a>
               </div>
@@ -283,7 +145,7 @@ const BlogPage = () => {
           </div>
         </div>
       </section>
-      <FeatureArea />
+      {/* <FeatureArea /> */}
       <ContactArea />
     </>
   );
