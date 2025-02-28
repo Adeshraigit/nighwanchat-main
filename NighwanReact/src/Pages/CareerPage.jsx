@@ -16,8 +16,8 @@ const CareerPage = () => {
         <title>Careers - Nighwan Technology Pvt. Ltd.</title>
          <meta name="description" content="This is Careerpage" />
         <meta name="robots" content="index, follow" />
-        </Helmet>
-        <HeroCareer/>
+    </Helmet>
+        {/* <HeroCareer/> */}
         <CompanyServiceArea/>
         {/* <ServiceArea/> */}
         <CareerArea/>

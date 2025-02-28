@@ -19,7 +19,7 @@ const BlogPage = () => {
         <title>Blog - Nighwan Technology Pvt. Ltd.</title>
          <meta name="description" content="This is Blog page" />
         <meta name="robots" content="index, follow" />
-        </Helmet>
+    </Helmet>
       {/* Hero Blog Section */}
       <section className="hero-servic e-wrap hero-section-wrap hero-blog-wrap">
         <div style={{ paddingTop: '100px'}} className="hero-section-content-wrap">
