@@ -2,13 +2,9 @@ import React from 'react';
 import news1 from '../assets/imgs/news-1.jpg'; // Adjust the path to your images
 import news2 from '../assets/imgs/news-2.jpg';
 import news3 from '../assets/imgs/news-3.jpg';
-// import news4 from '../assets/imgs/news-4.jpg';
-// import news5 from '../assets/imgs/news-5.jpg';
-// import news6 from '../assets/imgs/news-6.jpg';
-// import news7 from '../assets/imgs/news-7.jpg';
 import '../assets/css/style.css'; // Import your custom CSS
 import '../assets/css/responsive.css'; // Import your responsive CSS
-import FeatureArea from '../components/Home/FeatureArea';
+// import FeatureArea from '../components/Home/FeatureArea';
 import ContactArea from '../components/Home/ContactArea';
 import { Helmet } from 'react-helmet';    
 
@@ -16,8 +12,7 @@ const BlogPage = () => {
   return (
     <>
     <Helmet>
-        <title>Blog - Nighwan Technology Pvt. Ltd.</title>
-         <meta name="description" content="This is Blog page" />
+    <title>Our Blog | Nighwan Technology Pvt. Ltd.</title>  <meta name="description" content="Stay updated with the latest insights on AI, digital transformation, ERP systems, lean manufacturing, and IT solutions through Nighwan Technology's blog." />  <meta name="keywords" content="AI trends, digital transformation, ERP solutions, IT consulting, software development, technology blog, lean manufacturing insights" />
         <meta name="robots" content="index, follow" />
     </Helmet>
       {/* Hero Blog Section */}

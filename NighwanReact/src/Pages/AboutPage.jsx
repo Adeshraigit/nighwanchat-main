@@ -13,9 +13,8 @@ const AboutPage = () => {
     return (
         <>
         <Helmet>
-        <title>Our Roots - Nighwan Technology Pvt. Ltd.</title>
-         <meta name="description" content="This is about page" />
         <meta name="robots" content="index, follow" />
+        <title>Our Roots | About Us | Nighwan Technology Pvt. Ltd.</title>  <meta name="description" content="Discover the journey of Nighwan Technology Pvt. Ltd.and how we are revolutionizing industries with AI, lean manufacturing, and digital transformation solutions." />  <meta name="keywords" content="Nighwan Technology, about us, IT solutions provider, tech company, AI-driven development, enterprise technology, software company India, digital transformation" />
         </Helmet>
         <HeroSection />
         <CompanyServiceArea />

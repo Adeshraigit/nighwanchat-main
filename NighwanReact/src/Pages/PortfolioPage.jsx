@@ -8,8 +8,7 @@ const PortfolioPage = () => {
   return (
     <>
     <Helmet>
-        <title>Portfolio - Nighwan Technology Pvt. Ltd.</title>
-         <meta name="description" content="This is Portfolio page" />
+         <title>Our Products | Nighwan Technology Pvt. Ltd.</title>  <meta name="description" content="Discover Nighwan Technology's cutting-edge products, including AI-driven ERP systems, HRMS solutions, transport management software, and e-commerce platforms." />  <meta name="keywords" content="business software, AI-driven ERP, HRMS solutions, transport management system, e-commerce solutions, SaaS products, enterprise software" />
         <meta name="robots" content="index, follow" />
         </Helmet>
     <HeroPortfolio/>

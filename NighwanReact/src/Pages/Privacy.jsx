@@ -6,8 +6,7 @@ function Privacy() {
     <>
         <section className="hero-servic e-wrap hero-section-wrap hero-blog-wrap">
         <Helmet>
-        <title>Privacy Policy - Nighwan Technology Pvt. Ltd.</title>
-         <meta name="description" content="This is BlogDetails page" />
+        <title>Privacy Policy | Nighwan Technology Pvt. Ltd.</title>  <meta name="description" content="Understand how Nighwan Technology Pvt. Ltd. collects, uses, and protects your personal information in compliance with data privacy regulations." />  <meta name="keywords" content="privacy policy, data protection, user data privacy, website privacy, information security, GDPR compliance" />
         <meta name="robots" content="index, follow" />
         </Helmet>
         <div className="hero-section-content-wrap">

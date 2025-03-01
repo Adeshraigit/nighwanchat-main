@@ -204,31 +204,6 @@ const PortfolioArea = () => {
             </div>
           </div>
         </div>
-
-        {/* <div className="portfolio-items">
-          <div className="portfolio-item-col portfolio-darkgray-box">
-            <div className="project-item">
-              <div className="project-item-inner">
-                <h2 className="white">
-                <Link to={"/product-detail/digital"} >
-                  Digital Marketing<br />
-                  Automation<br />
-                </Link>
-                </h2>
-                <img src={Digital} alt="Project" />
-              </div>
-            </div>
-            <div className="portfolio-sample-details">
-              <h3>
-              <Link to={"/product-detail/digital"} >
-                Digital Marketing Automation
-                <i className="iconoir-arrow-up-right"></i>
-              </Link>
-              </h3>
-              <p>A data-driven digital marketing platform to automate campaigns, analyze customer behavior, and improve engagement.</p>
-            </div>
-          </div>
-        </div> */}
       </div>
     </section>
   );

@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import HCaptcha from '@hcaptcha/react-hcaptcha';
 import supportIcon from '../../assets/imgs/support-icon.svg';
-import mapIcon from '../../assets/imgs/map-icon.svg';
+import mapIcon from '../../assets/imgs/india.svg';
 import '../../assets/css/style.css';
 import '../../assets/css/responsive.css';
 

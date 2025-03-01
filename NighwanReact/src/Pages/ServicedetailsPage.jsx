@@ -13,13 +13,24 @@ import { useParams } from 'react-router-dom';
 const ServicedetailsPage = () => {
 
   const params = useParams();
-  const { type } = params;    
+  const { type } = params;   
+   
+  const services = {
+    "Branding" : {},
+    "ERP" : {},
+    "aim" : {},
+    "Web" : {},
+    "Data" : {},
+    "Iot" : {},
+    "Digital" : {},
+    "IT" : {},
+    "Devops" : {},
+  }
 
   return (
     <>
     <Helmet>
-        <title>Service - Nighwan Technology Pvt. Ltd.</title>
-         <meta name="description" content="This is Service page" />
+    <title>Our Services | Nighwan Technology Pvt. Ltd.</title>  <meta name="description" content="Explore our wide range of IT services, including ERP development, AI-powered analytics, cloud computing, IT consulting, and lean manufacturingsolutions." />  <meta name="keywords" content="IT services, AI analytics, ERP solutions, software development, cloud computing, digital transformation, enterprise solutions, lean manufacturing technology" />
         <meta name="robots" content="index, follow" />
         </Helmet>
         <HeroServiceWrap type={type} />
