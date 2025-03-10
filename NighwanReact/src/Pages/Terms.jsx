@@ -5,10 +5,7 @@ function Terms() {
   return (
     <>
         <section className="hero-servic e-wrap hero-section-wrap hero-blog-wrap">
-        <Helmet>
-        <title>Terms and Conditions | Nighwan Technology Pvt. Ltd.</title>  <meta name="description" content="Read the terms and conditions governing the use of Nighwan Technology Pvt. Ltd.'s website, services, and software products." />  <meta name="keywords" content="terms and conditions, Nighwan Technology policies, software usage policies, website terms, service agreements" />
-        <meta name="robots" content="index, follow" />
-        </Helmet>
+        <Helmet>  <title>Terms and Conditions | Nighwan Technology Pvt. Ltd.</title>  <meta name="description" content="Read the terms and conditions governing the use of Nighwan Technology Pvt. Ltd.'s website, services, and software products." />  <meta name="keywords" content="terms and conditions, Nighwan Technology policies, software usage policies, website terms, service agreements" /></Helmet>
         <div className="hero-section-content-wrap">
           <div className="custom-container">
             <div className="hero-portfolio-body">

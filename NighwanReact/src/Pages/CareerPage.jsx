@@ -8,14 +8,11 @@ import { Helmet } from "react-helmet";
 const CareerPage = () => {
   return (
     <>
-    <Helmet>
-    <title>Careers | Join Nighwan Technology Pvt. Ltd.</title>  <meta name="description" content="Join the team at Nighwan Technology Pvt. Ltd. Explore job openings, career opportunities, and internships in software development, AI, and IT consulting." />  <meta name="keywords" content="IT jobs, software developer jobs, career opportunities, AI jobs, tech company hiring, career in digital transformation, software engineering careers" />
-        <meta name="robots" content="index, follow" />
-    </Helmet>
-        <CompanyServiceArea/>
-        <CareerArea/>
-        <AboutServiceArea/>
-        <ContactArea/>
+    <Helmet>  <title>Careers | Join Nighwan Technology Pvt. Ltd.</title>  <meta name="description" content="Join the team at Nighwan Technology Pvt. Ltd. Explore job openings, career opportunities, and internships in software development, AI, and IT consulting." />  <meta name="keywords" content="IT jobs, software developer jobs, career opportunities, AI jobs, tech company hiring, career in digital transformation, software engineering careers" /></Helmet>
+      <CompanyServiceArea/>
+      <CareerArea/>
+      <AboutServiceArea/>
+      <ContactArea/>
     </>
   )
 }

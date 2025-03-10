@@ -35,10 +35,7 @@ const ContactPage = () => {
 
   return (
     <div style={{ overflowX: 'hidden', width: '100%' }}>  {/* Prevent horizontal scrolling */}
-     <Helmet>
-     <title>Contact Us | Nighwan Technology Pvt. Ltd.</title>  <meta name="description" content="Get in touch with Nighwan Technology Pvt. Ltd. for ITsolutions, software development, and business transformation consultancy." />  <meta name="keywords" content="contact Nighwan Technology, IT solutions inquiry, business technology consultation, software development contact, support and services" />
-        <meta name="robots" content="index, follow" />
-        </Helmet>
+     <Helmet>  <title>Contact Us | Nighwan Technology Pvt. Ltd.</title>  <meta name="description" content="Get in touch with Nighwan Technology Pvt. Ltd. for ITsolutions, software development, and business transformation consultancy." />  <meta name="keywords" content="contact Nighwan Technology, IT solutions inquiry, business technology consultation, software development contact, support and services" /></Helmet>
       <section className="hero-service-wrap hero-section-wrap hero-portfolio-wrap" style={{ width: '100%', boxSizing: 'border-box' }}>
         <div className="hero-section-content-wrap" style={{ width: '100%' }}>
           <div className="custom-container" style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 16px' }}>
