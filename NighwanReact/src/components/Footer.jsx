@@ -1,10 +1,4 @@
 import React from 'react';
-import logoWhite from '../assets/css/nighlogo.svg'; // Adjust the path to your logo
-import bgShape from '../assets/imgs/bg-shape-4.svg'; // Adjust the path to your background shape
-import youtubeIcon from '../assets/imgs/youtube.svg'; // Adjust the path to your icons
-import webflowIcon from '../assets/imgs/webflow.svg';
-import upworkIcon from '../assets/imgs/upwork.svg';
-import shopifyIcon from '../assets/imgs/shopify.svg';
 import '../assets/css/style.css'; // Import your custom CSS
 import '../assets/css/responsive.css'; // Import your responsive CSS
 
@@ -39,9 +33,9 @@ const Footer = () => {
                   <h3>Company</h3>
                   <ul>
                     <li><a href="/lean">Lean Consultancy</a></li>
-                    <li><a href="/about">Our Roots</a></li>
+                    <li><a href="/our-roots">Our Roots</a></li>
                     <li><a href="/service">Services</a></li>
-                    <li><a href="/product">Product</a></li>
+                    <li><a href="/products">Product</a></li>
                     <li><a href="/career">Careers</a></li>
                     <li><a href="/blog">Blog</a></li>
                   </ul>
@@ -62,15 +56,15 @@ const Footer = () => {
                 <div className="footer-contact-info-item">
                   <h4>Phone</h4>
                   <p>
-                    <a href="tel:+91 8985025794">+91 8985025794</a> <br />
-                    <a href="tel:+91 8985025794">+91 8092225777</a>
+                    <a href="tel:+918985025794" target="_blank" rel="noopener noreferrer">+91 8985025794</a> <br />
+                    <a href="tel:+918092225777" target="_blank" rel="noopener noreferrer">+91 8092225777</a>
                   </p>
                 </div>
                 <div className="footer-contact-info-item">
                   <h4>Mail</h4>
                   <p>
-                    <a href="mailto:contact@nighwantech.com">contact@nighwantech.com</a> <br />
-                    <a href="mailto:contact@nighwantech.com">info@nighwantech.com</a>
+                    <a href="mailto:contact@nighwantech.com" target="_blank" rel="noopener noreferrer">contact@nighwantech.com</a> <br />
+                    <a href="mailto:info@nighwantech.com" target="_blank" rel="noopener noreferrer">info@nighwantech.com</a>
                   </p>
                 </div>
               </div>
@@ -129,15 +123,15 @@ const Footer = () => {
                   <div className="footer-contact-info-item">
                     <h4>Phone</h4>
                     <p>
-                      <a href="tel:+91 8985025794">+91 8985025794</a> <br />
-                      <a href="tel:+91 8985025794">+91 8985025794</a>
+                      <a href="tel:+918985025794" target="_blank" rel="noopener noreferrer">+91 8985025794</a> <br />
+                      <a href="tel:+918985025794" target="_blank" rel="noopener noreferrer">+91 8985025794</a>
                     </p>
                   </div>
                   <div className="footer-contact-info-item">
                     <h4>Mail</h4>
                     <p>
-                      <a href="mailto:contact@nighwantech.com">contact@nighwantech.com</a> <br />
-                      <a href="mailto:contact@nighwantech.com">contact@nighwantech.com</a>
+                      <a href="mailto:contact@nighwantech.com" target="_blank" rel="noopener noreferrer">contact@nighwantech.com</a> <br />
+                      <a href="mailto:contact@nighwantech.com" target="_blank" rel="noopener noreferrer">contact@nighwantech.com</a>
                     </p>
                   </div>
                 </div>
@@ -152,38 +146,38 @@ const Footer = () => {
             <div className="custom-row d-flex align-items-center justify-content-between">
               <ul className="social-links d-flex align-items-center">
                 <li>
-                  <a href="https://www.facebook.com/Nighwantech">
+                  <a href="https://www.facebook.com/Nighwantech" target="_blank" rel="noopener noreferrer">
                     <i className="iconoir-facebook"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="https://x.com/nighwantech">
+                  <a href="https://x.com/nighwantech" target="_blank" rel="noopener noreferrer">
                     <i className="iconoir-x"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.instagram.com/nighwantech/">
+                  <a href="https://www.instagram.com/nighwantech/" target="_blank" rel="noopener noreferrer">
                     <i className="iconoir-instagram"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.linkedin.com/company/nighwan-technology-pvt-ltd/">
+                  <a href="https://www.linkedin.com/company/nighwan-technology-pvt-ltd/" target="_blank" rel="noopener noreferrer">
                     <i className="iconoir-linkedin"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.youtube.com/@Nighwantech">
+                  <a href="https://www.youtube.com/@Nighwantech" target="_blank" rel="noopener noreferrer">
                     <i className="iconoir-youtube"></i>
                   </a>
                 </li>
               </ul>
               <p>
                 &copy; 2025 All rights reserved by{' '}
-                <a href="https://nighwantech.com/">Nighwan Technology</a>
+                <a href="https://nighwantech.com/" target="_blank" rel="noopener noreferrer">Nighwan Technology</a>
               </p>
               <p>
-                <a href="/terms-and-conditions">Terms and Conditions</a> | 
-                <a href="/privacy-policy"> Privacy Policy</a>
+                <a href="/terms-and-conditions" target="_blank" rel="noopener noreferrer">Terms and Conditions</a> |
+                <a href="/privacy-policy" target="_blank" rel="noopener noreferrer"> Privacy Policy</a>
               </p>
             </div>
           </div>
