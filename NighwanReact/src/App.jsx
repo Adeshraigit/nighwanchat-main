@@ -15,6 +15,7 @@ import ContactPage from './Pages/ContactPage';
 import Portfoliodetail from './Pages/portfolio-detail';
 import Terms from './Pages/Terms';
 import Privacy from './Pages/Privacy';
+import JobDetail from './Pages/JobDetail';
 
 function App() {
 
@@ -33,6 +34,10 @@ function App() {
         {
           path: "/career",
           element: <CareerPage />
+        },
+        {
+          path: "/job/:id",
+          element: <JobDetail/>
         },
         {
           path: "/terms-and-conditions",
@@ -71,10 +76,6 @@ function App() {
           path: "/products",
           element: <PortfolioPage/>
         },
-        {
-          path: "/caseStudies",
-          element: <div>Case Studies</div>
-        }, 
         {
           path: "/product-detail/:type",
           element: <Portfoliodetail/>
