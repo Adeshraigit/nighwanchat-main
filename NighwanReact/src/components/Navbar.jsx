@@ -6,10 +6,11 @@ import '../assets/css/responsive.css';
 import '../assets/css/line.css';
 import hwdIcon2 from '../assets/imgs/hwd-icon-2.svg';
 import hwdIcon4 from '../assets/imgs/hwd-icon-4.svg';
-import portfolio1 from '../assets/imgs/portfolio-mega-menu-1.jpg';
-import portfolio2 from '../assets/imgs/portfolio-mega-menu-2.jpg';
-import portfolio3 from '../assets/imgs/portfolio-mega-menu-3.jpg';
-import portfolio4 from '../assets/imgs/portfolio-mega-menu-4.jpg';
+// import portfolio1 from '../assets/imgs/portfolio-mega-menu-1.jpg';
+import portfolio2 from '../assets/imgs/nav/navbarAI.png'; 
+import portfolio1 from '../assets/imgs/nav/erp.png';
+import portfolio3 from '../assets/imgs/nav/ecommerce.png';    
+import portfolio4 from '../assets/imgs/nav/iot.png';
 import hrms from '../assets/imgs/hrms.png';
 import serviceIcon1 from '../assets/imgs/service-icon-1.svg';
 import serviceIcon7 from '../assets/imgs/service-icon-7.svg';
@@ -45,6 +46,14 @@ const styles = {
       .mega-menu-social li {
         margin: 0 10px !important;
       }
+    }
+  `,
+  dropdownStyles: `
+    .mega-menu-service-cards .content h2 a {
+      color: black !important; /* Change orange text to black */
+    }
+    .mega-menu-links ul li a {
+      font-size: 1em !important; /* Increase font size for grey "Services" texts */
     }
   `,
 };
@@ -108,6 +117,7 @@ const Navbar = () => {
       <style>
         {styles.mobileStyles}
         {styles.smallDeviceStyles}
+        {styles.dropdownStyles}
       </style>
       <header className="header-area">
         <div className="custom-container">
@@ -194,7 +204,7 @@ const Navbar = () => {
                                     </span>
                                     <div className="content">
                                       <h2>
-                                        <Link to="/service-details/data" onClick={hwdIcon4}>Data Analytics</Link>
+                                        <Link to="/service-details/data" onClick={handleMenuItemClick}>Data Analytics</Link>
                                       </h2>
                                     </div>
                                   </div>
@@ -215,27 +225,27 @@ const Navbar = () => {
                                     <h3>Services</h3>
                                     <ul>
                                       <li>
-                                        <Link to="/lean" onClick={handleMenuItemClick} style={{ fontSize: '0.7em' }}>
+                                        <Link to="/lean" onClick={handleMenuItemClick}>
                                           Lean Consultancy
                                         </Link>
                                       </li>
                                       <li>
-                                        <Link to="/service-details/Branding" onClick={handleMenuItemClick} style={{ fontSize: '0.7em' }}>
+                                        <Link to="/service-details/Branding" onClick={handleMenuItemClick}>
                                           Branding
                                         </Link>
                                       </li>
                                       <li>
-                                        <Link to="/service-details/ERP" onClick={handleMenuItemClick} style={{ fontSize: '0.7em' }}>
+                                        <Link to="/service-details/ERP" onClick={handleMenuItemClick}>
                                           ERP Development
                                         </Link>
                                       </li>
                                       <li>
-                                        <Link to="/service-details/aim" onClick={handleMenuItemClick} style={{ fontSize: '0.7em' }}>
+                                        <Link to="/service-details/aim" onClick={handleMenuItemClick}>
                                           AI/ML Solutions
                                         </Link>
                                       </li>
                                       <li>
-                                        <Link to="/service-details/Web" onClick={handleMenuItemClick} style={{ fontSize: '0.7em' }}>
+                                        <Link to="/service-details/Web" onClick={handleMenuItemClick}>
                                           Web / Mobile App
                                         </Link>
                                       </li>
@@ -245,27 +255,27 @@ const Navbar = () => {
                                     <h3>&nbsp;</h3>
                                     <ul>
                                       <li>
-                                        <Link to="/service-details/Iot" onClick={handleMenuItemClick} style={{ fontSize: '0.7em' }}>
+                                        <Link to="/service-details/Iot" onClick={handleMenuItemClick}>
                                           IoT Solutions
                                         </Link>
                                       </li>
                                       <li>
-                                        <Link to="/service-details/Digital" onClick={handleMenuItemClick} style={{ fontSize: '0.7em' }}>
+                                        <Link to="/service-details/Digital" onClick={handleMenuItemClick}>
                                           Digital Marketing
                                         </Link>
                                       </li>
                                       <li>
-                                        <Link to="/service-details/Data" onClick={handleMenuItemClick} style={{ fontSize: '0.7em' }}>
+                                        <Link to="/service-details/Data" onClick={handleMenuItemClick}>
                                           Data Analytics
                                         </Link>
                                       </li>
                                       <li>
-                                        <Link to="/service-details/Devops" onClick={handleMenuItemClick} style={{ fontSize: '0.7em' }}>
+                                        <Link to="/service-details/Devops" onClick={handleMenuItemClick}>
                                           DevOps Services
                                         </Link>
                                       </li>
                                       <li>
-                                        <Link to="/service-details/IT" onClick={handleMenuItemClick} style={{ fontSize: '0.7em' }}>
+                                        <Link to="/service-details/IT" onClick={handleMenuItemClick}>
                                           IT Support & Maintenance
                                         </Link>
                                       </li>
@@ -489,3 +499,5 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+    

@@ -46,7 +46,7 @@ const CareerArea = () => {
   };
 
   return (
-    <section className="career-area">
+    <section className="career-area" style={{ paddingTop: '0' }} >
       <div className="custom-container">
         <div className="career-body d-flex">
           <div className="career-left">
