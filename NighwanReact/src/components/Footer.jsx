@@ -108,7 +108,7 @@ const Footer = () => {
               </div>
               {/* Group B: Product & Contact Info side by side */}
               <div className="footer-column group-b">
-              <div className="footer-links">
+                <div className="footer-links">
                   <h3>Product</h3>
                   <ul>
                     <li><a href="/product-detail/iot">Iot - Enabled Predictive Maintenance</a></li>
@@ -120,14 +120,14 @@ const Footer = () => {
                   </ul>
                 </div>
                 <div className="footer-contact-info">
-                  <div className="footer-contact-info-item">
+                  <div className="footer-contact-info-item contact-phone">
                     <h4>Phone</h4>
                     <p>
                       <a href="tel:+918985025794" target="_blank" rel="noopener noreferrer">+91 8985025794</a> <br />
                       <a href="tel:+918985025794" target="_blank" rel="noopener noreferrer">+91 8985025794</a>
                     </p>
                   </div>
-                  <div className="footer-contact-info-item">
+                  <div className="footer-contact-info-item contact-mail">
                     <h4>Mail</h4>
                     <p>
                       <a href="mailto:contact@nighwantech.com" target="_blank" rel="noopener noreferrer">contact@nighwantech.com</a> <br />
@@ -236,17 +236,42 @@ const Footer = () => {
           }
           .mobile-footer .footer-column {
             display: flex;
+            flex-direction: column;
             gap: 20px;
-          }
-          .mobile-footer .group-a,
-          .mobile-footer .group-b {
-            display: flex;
             width: 100%;
           }
-          .mobile-footer .group-a .footer-links,
-          .mobile-footer .group-b .footer-links,
-          .mobile-footer .group-b .footer-contact-info {
+          .mobile-footer .group-a {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+          }
+          .mobile-footer .group-a .footer-links {
             width: 50%;
+            padding-right: 10px; /* Add padding to avoid collision */
+          }
+          .mobile-footer .group-b {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+          }
+          .mobile-footer .group-b .footer-links {
+            width: 100%;
+            padding-right: 10px; /* Add padding to avoid collision */
+          }
+          .mobile-footer .group-b .footer-contact-info {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+          }
+          .mobile-footer .footer-contact-info-item {
+            width: 50%;
+            padding: 0 10px; /* Add padding to avoid collision */
+          }
+          .mobile-footer .footer-contact-info-item p {
+            margin: 0; /* Remove default margin */
+          }
+          .mobile-footer .contact-mail {
+            margin-top: -20px; /* Move the mail section up to align with phone */
           }
         }
       `}</style>

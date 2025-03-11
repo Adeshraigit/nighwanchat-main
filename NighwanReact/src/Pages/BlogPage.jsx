@@ -1,23 +1,25 @@
 import React from 'react';
-import news1 from '../assets/imgs/news-1.jpg'; // Adjust the path to your images
+import news1 from '../assets/imgs/news-1.jpg'; 
 import news2 from '../assets/imgs/news-2.jpg';
 import news3 from '../assets/imgs/news-3.jpg';
-import '../assets/css/style.css'; // Import your custom CSS
-import '../assets/css/responsive.css'; // Import your responsive CSS
-// import FeatureArea from '../components/Home/FeatureArea';
+import '../assets/css/style.css';
+import '../assets/css/responsive.css';
 import ContactArea from '../components/Home/ContactArea';
-import { Helmet } from 'react-helmet';    
+import { Helmet } from 'react-helmet';
 
 const BlogPage = () => {
   return (
     <>
-    <Helmet>
-    <title>Our Blog | Nighwan Technology Pvt. Ltd.</title>  <meta name="description" content="Stay updated with the latest insights on AI, digital transformation, ERP systems, lean manufacturing, and IT solutions through Nighwan Technology's blog." />  <meta name="keywords" content="AI trends, digital transformation, ERP solutions, IT consulting, software development, technology blog, lean manufacturing insights" />
+      <Helmet>
+        <title>Our Blog | Nighwan Technology Pvt. Ltd.</title>
+        <meta name="description" content="Stay updated with the latest insights on AI, digital transformation, ERP systems, lean manufacturing, and IT solutions through Nighwan Technology's blog." />
+        <meta name="keywords" content="AI trends, digital transformation, ERP solutions, IT consulting, software development, technology blog, lean manufacturing insights" />
         <meta name="robots" content="index, follow" />
-    </Helmet>
+      </Helmet>
+
       {/* Hero Blog Section */}
-      <section className="hero-servic e-wrap hero-section-wrap hero-blog-wrap">
-        <div style={{ paddingTop: '100px'}} className="hero-section-content-wrap">
+      <section className="hero-service-wrap hero-section-wrap hero-blog-wrap">
+        <div style={{ paddingTop: '100px' }} className="hero-section-content-wrap">
           <div className="custom-container">
             <div className="hero-portfolio-body">
               <div className="hero-section-content text-center">
@@ -39,7 +41,7 @@ const BlogPage = () => {
       <section className="news-area">
         <div className="custom-container">
           {/* Sticky News */}
-          <div className="sticky-news d-flex card-h">
+          <div className="sticky-news d-flex card-h" style={{ marginBottom: '5px' }}>
             <div className="news-img-box">
               <img src={news1} alt="News" />
             </div>
@@ -69,7 +71,7 @@ const BlogPage = () => {
           {/* News Items */}
           <div className="news-items align-items-start">
             {/* News Item 1 */}
-            <div className="news-item card-h">
+            <div className="news-item card-h" style={{ marginBottom: '5px' }}>
               <div className="news-img-box">
                 <img src={news2} alt="News" />
               </div>

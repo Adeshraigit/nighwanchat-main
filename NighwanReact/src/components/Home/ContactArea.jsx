@@ -166,7 +166,6 @@ const ContactArea = () => {
     }
   };
 
-
   // Handle Form Submission
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -211,7 +210,7 @@ const ContactArea = () => {
                         id="first_name"
                         type="text"
                         name="first_name"
-                        placeholder={errors.first_name ? " Name is required." : "Your Name"}
+                        placeholder={errors.first_name ? "Name is required." : "Your Name"}
                         value={formData.first_name}
                         onChange={handleChange}
                         className={errors.first_name ? "error-input" : ""}
@@ -348,48 +347,47 @@ const ContactArea = () => {
                   <img src={supportIcon} alt="Support" />
                   <h3>Contact Info</h3>
                   <p>
-                    +91 8985025794 <br />
-                    contact@nighwantech.com
+                    <a href="tel:+918985025794" target="_blank" rel="noopener noreferrer">+91 8985025794</a> <br />
+                    <a href="mailto:contact@nighwantech.com" target="_blank" rel="noopener noreferrer">contact@nighwantech.com</a>
                   </p>
                 </div>
                 <div className="contact-office-info contact-info">
                   <img src={mapIcon} alt="Map" />
                   <h3>Visit our office</h3>
                   <p>
-                  Hyderabad,TS
-                    <br />
-                  Gaya, BH
+                    Hyderabad, TS <br />
+                    Gaya, BH
                   </p>
                 </div>
                 <ul className="contact-social-links">
                   <li>
-                    <a href="https://www.facebook.com/Nighwantech">
+                    <a href="https://www.facebook.com/Nighwantech" target="_blank" rel="noopener noreferrer">
                       <i className="iconoir-facebook"></i>
                       Facebook
                     </a>
                   </li>
                   <li>
-                    <a href="https://x.com/nighwantech">
+                    <a href="https://x.com/nighwantech" target="_blank" rel="noopener noreferrer">
                       <i className="iconoir-x"></i>
                       X
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.instagram.com/nighwantech/">
+                    <a href="https://www.instagram.com/nighwantech/" target="_blank" rel="noopener noreferrer">
                       <i className="iconoir-instagram"></i>
                       Instagram
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.linkedin.com/company/nighwan-technology-pvt-ltd/">
+                    <a href="https://www.linkedin.com/company/nighwan-technology-pvt-ltd/" target="_blank" rel="noopener noreferrer">
                       <i className="iconoir-linkedin"></i>
-                      Linkedin
+                      LinkedIn
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.youtube.com/@Nighwantech">
+                    <a href="https://www.youtube.com/@Nighwantech" target="_blank" rel="noopener noreferrer">
                       <i className="iconoir-youtube"></i>
-                      Youtube
+                      YouTube
                     </a>
                   </li>
                 </ul>
