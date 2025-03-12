@@ -50,9 +50,7 @@ const Service4Area = () => {
                 <span className="service-badge">{service.badge}</span>
               )}
               <img src={service.icon} alt="Service Icon" className="service-icon" />
-              <h3>
-                <Link href={`/service-details/${service.link}`}>{service.title}</Link>
-              </h3>
+                <Link href={`/service-details/${service.link}`}><h3>{service.title}</h3></Link>
               <p>{service.description}</p>
             </div>
             </Link>

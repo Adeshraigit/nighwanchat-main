@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../assets/css/style.css'; // Import your custom CSS
 import '../assets/css/responsive.css'; // Import your responsive CSS
 
@@ -16,39 +17,39 @@ const Footer = () => {
                 <div className="footer-links">
                   <h3>Services</h3>
                   <ul>
-                    <li><a href="/lean">Lean Consultancy</a></li>
-                    <li><a href="/service-details/ERP">ERP Development</a></li>
+                    <li><Link to="/lean">Lean Consultancy</Link></li>
+                    <li><Link to="/service-details/ERP">ERP Development</Link></li>
                     <li>
-                      <a href="/service-details/aim">
+                      <Link to="/service-details<Linkim">
                       AI/ML Solutions
-                      </a>
+                      </Link>
                     </li>
-                    <li><a href="/service-details/Data">Data Analytics
-                    </a></li>
-                    <li><a href="/service-details/Web">Web / Mobile</a></li>
-                    <li><a href="/service-details/Branding">Branding</a></li>
+                    <li><Link to="/service-details/Data">Data Analytics
+                    </Link></li>
+                    <li><Link to="/service-details/Web">Web / Mobile</Link></li>
+                    <li><Link to="/service-details/Branding">Branding</Link></li>
                   </ul>
                 </div>
                 <div className="footer-links">
                   <h3>Company</h3>
                   <ul>
-                    <li><a href="/lean">Lean Consultancy</a></li>
-                    <li><a href="/our-roots">Our Roots</a></li>
-                    <li><a href="/service">Services</a></li>
-                    <li><a href="/products">Product</a></li>
-                    <li><a href="/career">Careers</a></li>
-                    <li><a href="/blog">Blog</a></li>
+                    <li><Link to="/lean">Lean Consultancy</Link></li>
+                    <li><Link to="/our-roots">Our Roots</Link></li>
+                    <li><Link to="/service">Services</Link></li>
+                    <li><Link to="/products">Product</Link></li>
+                    <li><Link to="/career">Careers</Link></li>
+                    <li><Link to="/blog">Blog</Link></li>
                   </ul>
                 </div>
                 <div className="footer-links">
                   <h3>Product</h3>
                   <ul>
-                    <li><a href="/product-detail/iot">Iot - Enabled Predictive Maintenance</a></li>
-                    <li><a href="/product-detail/ai">AI-Powered Sales Forecasting</a></li>
-                    <li><a href="/product-detail/tms">Transport Management System</a></li>
-                    <li><a href="/product-detail/b2b">B2B E-Commerce Platform</a></li>
-                    <li><a href="/product-detail/erp">ERP System</a></li>
-                    <li><a href="/product-detail/hrms">HRMS</a></li>
+                    <li><Link to="/product-detail/iot">Iot - Enabled Predictive Maintenance</Link></li>
+                    <li><Link to="/product-detail<Linki">AI-Powered Sales Forecasting</Link></li>
+                    <li><Link to="/product-detail/tms">Transport Management System</Link></li>
+                    <li><Link to="/product-detail/b2b">B2B E-Commerce Platform</Link></li>
+                    <li><Link to="/product-detail/erp">ERP System</Link></li>
+                    <li><Link to="/product-detail/hrms">HRMS</Link></li>
                   </ul>
                 </div>
               </div>
@@ -56,15 +57,15 @@ const Footer = () => {
                 <div className="footer-contact-info-item">
                   <h4>Phone</h4>
                   <p>
-                    <a href="tel:+918985025794" target="_blank" rel="noopener noreferrer">+91 8985025794</a> <br />
-                    <a href="tel:+918092225777" target="_blank" rel="noopener noreferrer">+91 8092225777</a>
+                    <Link to="tel:+918985025794" target="_blank" rel="noopener noreferrer">+91 8985025794</Link> <br />
+                    <Link to="tel:+918092225777" target="_blank" rel="noopener noreferrer">+91 8092225777</Link>
                   </p>
                 </div>
                 <div className="footer-contact-info-item">
                   <h4>Mail</h4>
                   <p>
-                    <a href="mailto:contact@nighwantech.com" target="_blank" rel="noopener noreferrer">contact@nighwantech.com</a> <br />
-                    <a href="mailto:info@nighwantech.com" target="_blank" rel="noopener noreferrer">info@nighwantech.com</a>
+                    <Link to="mailto:contact@nighwantech.com" target="_blank" rel="noopener noreferrer">contact@nighwantech.com</Link> <br />
+                    <Link to="mailto:info@nighwantech.com" target="_blank" rel="noopener noreferrer">info@nighwantech.com</Link>
                   </p>
                 </div>
               </div>
@@ -81,28 +82,28 @@ const Footer = () => {
                 <div className="footer-links">
                   <h3>Services</h3>
                   <ul>
-                    <li><a href="/lean">Lean Consultancy</a></li>
-                    <li><a href="/service-details/ERP">ERP Development</a></li>
+                    <li><Link to="/lean">Lean Consultancy</Link></li>
+                    <li><Link to="/service-details/ERP">ERP Development</Link></li>
                     <li>
-                      <a href="/service-details/aim">
+                      <Link to="/service-details<Linkim">
                       AI/ML Solutions
-                      </a>
+                      </Link>
                     </li>
-                    <li><a href="/service-details/Data">Data Analytics
-                    </a></li>
-                    <li><a href="/service-details/Web">Web / Mobile</a></li>
-                    <li><a href="/service-details/Branding">Branding</a></li>
+                    <li><Link to="/service-details/Data">Data Analytics
+                    </Link></li>
+                    <li><Link to="/service-details/Web">Web / Mobile</Link></li>
+                    <li><Link to="/service-details/Branding">Branding</Link></li>
                   </ul>
                 </div>
                 <div className="footer-links">
                   <h3>Company</h3>
                   <ul>
-                    <li><a href="/lean">Lean Consultancy</a></li>
-                    <li><a href="/about">Our Roots</a></li>
-                    <li><a href="/service">Services</a></li>
-                    <li><a href="/product">Product</a></li>
-                    <li><a href="/career">Careers</a></li>
-                    <li><a href="/blog">Blog</a></li>
+                    <li><Link to="/lean">Lean Consultancy</Link></li>
+                    <li><Link to="<Linkbout">Our Roots</Link></li>
+                    <li><Link to="/service">Services</Link></li>
+                    <li><Link to="/product">Product</Link></li>
+                    <li><Link to="/career">Careers</Link></li>
+                    <li><Link to="/blog">Blog</Link></li>
                   </ul>
                 </div>
               </div>
@@ -111,27 +112,27 @@ const Footer = () => {
                 <div className="footer-links">
                   <h3>Product</h3>
                   <ul>
-                    <li><a href="/product-detail/iot">Iot - Enabled Predictive Maintenance</a></li>
-                    <li><a href="/product-detail/ai">AI-Powered Sales Forecasting</a></li>
-                    <li><a href="/product-detail/tms">Transport Management System</a></li>
-                    <li><a href="/product-detail/b2b">B2B E-Commerce Platform</a></li>
-                    <li><a href="/product-detail/erp">ERP System</a></li>
-                    <li><a href="/product-detail/hrms">HRMS</a></li>
+                    <li><Link to="/product-detail/iot">Iot - Enabled Predictive Maintenance</Link></li>
+                    <li><Link to="/product-detail<Linki">AI-Powered Sales Forecasting</Link></li>
+                    <li><Link to="/product-detail/tms">Transport Management System</Link></li>
+                    <li><Link to="/product-detail/b2b">B2B E-Commerce Platform</Link></li>
+                    <li><Link to="/product-detail/erp">ERP System</Link></li>
+                    <li><Link to="/product-detail/hrms">HRMS</Link></li>
                   </ul>
                 </div>
                 <div className="footer-contact-info">
                   <div className="footer-contact-info-item contact-phone">
                     <h4>Phone</h4>
                     <p>
-                      <a href="tel:+918985025794" target="_blank" rel="noopener noreferrer">+91 8985025794</a> <br />
-                      <a href="tel:+918985025794" target="_blank" rel="noopener noreferrer">+91 8985025794</a>
+                      <Link to="tel:+918985025794" target="_blank" rel="noopener noreferrer">+91 8985025794</Link> <br />
+                      <Link to="tel:+918985025794" target="_blank" rel="noopener noreferrer">+91 8985025794</Link>
                     </p>
                   </div>
                   <div className="footer-contact-info-item contact-mail">
                     <h4>Mail</h4>
                     <p>
-                      <a href="mailto:contact@nighwantech.com" target="_blank" rel="noopener noreferrer">contact@nighwantech.com</a> <br />
-                      <a href="mailto:contact@nighwantech.com" target="_blank" rel="noopener noreferrer">contact@nighwantech.com</a>
+                      <Link to="mailto:contact@nighwantech.com" target="_blank" rel="noopener noreferrer">contact@nighwantech.com</Link> <br />
+                      <Link to="mailto:contact@nighwantech.com" target="_blank" rel="noopener noreferrer">contact@nighwantech.com</Link>
                     </p>
                   </div>
                 </div>
@@ -146,38 +147,38 @@ const Footer = () => {
             <div className="custom-row d-flex align-items-center justify-content-between">
               <ul className="social-links d-flex align-items-center">
                 <li>
-                  <a href="https://www.facebook.com/Nighwantech" target="_blank" rel="noopener noreferrer">
+                  <Link to="https://www.facebook.com/Nighwantech" target="_blank" rel="noopener noreferrer">
                     <i className="iconoir-facebook"></i>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="https://x.com/nighwantech" target="_blank" rel="noopener noreferrer">
+                  <Link to="https://x.com/nighwantech" target="_blank" rel="noopener noreferrer">
                     <i className="iconoir-x"></i>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="https://www.instagram.com/nighwantech/" target="_blank" rel="noopener noreferrer">
+                  <Link to="https://www.instagram.com/nighwantech/" target="_blank" rel="noopener noreferrer">
                     <i className="iconoir-instagram"></i>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="https://www.linkedin.com/company/nighwan-technology-pvt-ltd/" target="_blank" rel="noopener noreferrer">
+                  <Link to="https://www.linkedin.com/company/nighwan-technology-pvt-ltd/" target="_blank" rel="noopener noreferrer">
                     <i className="iconoir-linkedin"></i>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="https://www.youtube.com/@Nighwantech" target="_blank" rel="noopener noreferrer">
+                  <Link to="https://www.youtube.com/@Nighwantech" target="_blank" rel="noopener noreferrer">
                     <i className="iconoir-youtube"></i>
-                  </a>
+                  </Link>
                 </li>
               </ul>
               <p>
                 &copy; 2025 All rights reserved by{' '}
-                <a href="https://nighwantech.com/" target="_blank" rel="noopener noreferrer">Nighwan Technology</a>
+                <Link to="https://nighwantech.com/" target="_blank" rel="noopener noreferrer">Nighwan Technology</Link>
               </p>
               <p>
-                <a href="/terms-and-conditions" target="_blank" rel="noopener noreferrer">Terms and Conditions</a> |
-                <a href="/privacy-policy" target="_blank" rel="noopener noreferrer"> Privacy Policy</a>
+                <Link to="/terms-and-conditions" target="_blank" rel="noopener noreferrer">Terms and Conditions</Link> |
+                <Link to="/privacy-policy" target="_blank" rel="noopener noreferrer"> Privacy Policy</Link>
               </p>
             </div>
           </div>

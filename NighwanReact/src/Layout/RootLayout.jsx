@@ -28,7 +28,7 @@ import Chat from '../Pages/Chat';
 const RootLayout = () => {
   return (
     <>
-      <ScrollRestoration />
+      {/* <ScrollRestoration /> */}
       <Header />
       <main>
         <Outlet />
