@@ -8,6 +8,7 @@ import hwdIcon5 from '../../assets/imgs/hwd-icon-5.svg';
 import hwdIcon6 from '../../assets/imgs/hwd-icon-6.svg';
 import '../../assets/css/style.css'; // Import your custom CSS
 import '../../assets/css/responsive.css'; // Import your responsive CSS
+import { Link } from 'react-router-dom';  
 
 const HowWeDo = () => {
   return (
@@ -21,10 +22,10 @@ const HowWeDo = () => {
               <h1 className="section-title">How do we work?</h1>
               <p>Transforming Ideas into Impactful Solutions.</p>
             </div>
-            <a href="/about" className="theme-btn">
+            <Link href="/about" className="theme-btn">
               Learn More
               <i className="iconoir-arrow-up-right"></i>
-            </a>
+            </Link>
           </div>
           <div className="how-we-do-right-content">
             <div className="how-we-do-items d-flex align-items-center justify-content-center">

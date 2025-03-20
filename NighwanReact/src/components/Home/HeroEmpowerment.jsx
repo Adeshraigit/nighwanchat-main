@@ -1,6 +1,4 @@
 import React from 'react';
-import bg1Desktop from '../../assets/imgs/bg1-1.png'; // Adjust the path to your images
-import bg1Mobile from '../../assets/imgs/bg1.png';
 import icon1 from '../../assets/imgs/icon1.svg';
 import smallImg1 from '../../assets/imgs/small-img-1.png';
 import smallImg2 from '../../assets/imgs/small-img-2.png';
@@ -10,6 +8,7 @@ import icon2 from '../../assets/imgs/icon2.svg';
 import NighwanTechHome from '../../assets/imgs/NighwanTechHome.png';
 import '../../assets/css/style.css'; // Import your custom CSS
 import '../../assets/css/responsive.css'; // Import your responsive CSS
+import { Link } from 'react-router-dom';
 
 const HeroEmpowerment = () => {
   return (
@@ -22,10 +21,10 @@ const HeroEmpowerment = () => {
             Innovative AI & ML Solutions for a Smarter Tomorrow.</h2>
             <p>We integrate Artificial Intelligence, Machine Learning, and Lean Manufacturing expertise to optimize operations, reduce costs, and drive growth for businesses across industries.</p>
             <div className="btns-group d-flex">
-              <a href="/service" className="theme-btn">Explore More</a>
-              <a href="/lean" className="theme-btn2">
+              <Link href="/service" className="theme-btn">Explore More</Link>
+              <Link href="/lean" className="theme-btn2">
                 Get in Touch <i className="iconoir-arrow-up-right"></i>
-              </a>
+              </Link>
             </div>
           </div>
 
@@ -49,7 +48,7 @@ const HeroEmpowerment = () => {
             </div>
 
             <div className="bottom-content d-flex">
-              <a href="#" className="our-expert-team-box simple-shadow bounce-in delay-2">
+              <Link href="#" className="our-expert-team-box simple-shadow bounce-in delay-2">
                 <div className="our-expert-team-box-inner d-flex align-items-center">
                   <div className="imgs imgs1 d-flex align-items-center">
                     <img src={smallImg4} alt="team" />
@@ -62,7 +61,7 @@ const HeroEmpowerment = () => {
                     <span>Our Experts</span>
                   </p>
                 </div>
-              </a>
+              </Link>
 
               <div className="google-reviews-box simple-shadow bounce-in delay-3">
                 <div className="left">
