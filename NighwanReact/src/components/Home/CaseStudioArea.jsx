@@ -14,6 +14,7 @@ import ecommerce from '../../assets/imgs/ecom.png';
 import '../../assets/css/style.css'; // Import your custom CSS
 import '../../assets/css/responsive.css'; // Import your responsive CSS
 import ecomSvg from '../../assets/imgs/ecom.svg';
+import { Link } from 'react-router-dom';
 
 const CaseStudioArea = () => {
   const [activeTab, setActiveTab] = useState('development');
@@ -100,9 +101,9 @@ const CaseStudioArea = () => {
                     <p>
                     AI-powered recruitment, workforce management, and payroll in one centralized platform.
                     </p>
-                    <a href="/product-detail/hrms" className="theme-btn">
+                    <Link to="/product-detail/hrms" className="theme-btn">
                       <i className="iconoir-arrow-up-right"></i>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -133,9 +134,9 @@ const CaseStudioArea = () => {
                     <p>
                     Smart logistics management with real-time tracking and route optimization.
                     </p>
-                    <a href="/product-detail/tms" className="theme-btn">
+                    <Link to="/product-detail/tms" className="theme-btn">
                       <i className="iconoir-arrow-up-right"></i>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
